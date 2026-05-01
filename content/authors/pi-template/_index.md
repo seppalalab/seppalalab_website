@@ -57,7 +57,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - Principal Investigators  # Options: Principal Investigators, Postdoctoral Researchers, PhD Students, Master's Students, Research Assistants, Alumni, Visitors
+  - TEMPLATE_DO_NOT_PUBLISH  # Change this to one of: Principal Investigators, Postdoctoral Researchers, PhD Students, Master's Students, Research Assistants, Alumni, Visitors
 highlight_name: true
 ---
 
