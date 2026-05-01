@@ -4,7 +4,7 @@
 
 # Appearance
 appearance:
-  theme_day: minimal
+  theme_day: seppala
   theme_night:
   font: native
   font_size: L
