@@ -8,11 +8,11 @@ main:
   - name: Team
     url: people
     weight: 20
-  - name: News
-    url: post
-    weight: 30
   - name: Publications
     url: publication
+    weight: 30
+  - name: News
+    url: post
     weight: 40
   - name: Contact
     url: contact
