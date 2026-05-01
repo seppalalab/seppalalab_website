@@ -1,0 +1,51 @@
+{{ define "main" }}
+<style>
+  .splash-wrapper {
+    min-height: 78vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .splash-logo {
+    max-width: 500px;
+    width: 78%;
+    margin-bottom: 3.5rem;
+  }
+  .splash-nav {
+    display: flex;
+    gap: 3.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .splash-nav a {
+    font-size: 0.95rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  .splash-nav a:hover {
+    color: #6B2737;
+  }
+</style>
+
+<div class="splash-wrapper">
+
+  {{ $logo := resources.Get "media/logo.png" }}
+  {{ if $logo }}
+    <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}" class="splash-logo">
+  {{ end }}
+
+  <nav class="splash-nav">
+    {{ range site.Menus.main }}
+      <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+
+</div>
+{{ end }}
