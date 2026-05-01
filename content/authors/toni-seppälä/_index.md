@@ -6,22 +6,24 @@
 # 4. Save — the site rebuilds automatically
 
 # Display name (shown on the Team page)
-title: First Last
+title: Toni Seppälä
 
 # Full name for SEO
-first_name: First
-last_name: Last
+first_name: Toni
+last_name: Seppälä
 
 # Set to true for the Principal Investigator
-superuser: false
+superuser: true
 
 # Role / position
 role: Principal Investigator
 
 # Affiliation
 organizations:
-  - name: FILL IN university or institute name
-    url: ''                             # optional: link to department page
+  - name: Tampere University
+    url: ''   # optional: link to department page
+  - name: Tampere University Hospital Cancer Centre
+    url: ''   # optional: link to department page
 
 # Short bio (shown below posts and publications)
 bio: One or two sentences about research interests.
@@ -41,20 +43,17 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:email@university.edu'
+    link: 'mailto:toni.seppala@tuni.fi'
   - icon: google-scholar
     icon_pack: ai
-    link: 'https://scholar.google.com/citations?user=XXXXX'
-  - icon: github
-    icon_pack: fab
-    link: 'https://github.com/username'
+    link: 'https://scholar.google.fi/citations?user=A3-yj_sAAAAJ&hl=en'
   - icon: linkedin
     icon_pack: fab
-    link: 'https://linkedin.com/in/username'
+    link: 'https://linkedin.com/in/toni-seppälä-743b6733'
 
 # Highlight name in author lists
 user_groups:
-  - TEMPLATE_DO_NOT_PUBLISH  # Change this to one of: Principal Investigator, Postdoctoral Researchers, Doctoral Researchers, Master's Students, Research Assistants, Laboratory Technicians, Alumni, Visitors
+  - Principal Investigators  # Change this to one of: Principal Investigators, Postdoctoral Researchers, Doctoral researcher, Master's Students, Research Assistants, Alumni, Visitors
 highlight_name: true
 ---
 

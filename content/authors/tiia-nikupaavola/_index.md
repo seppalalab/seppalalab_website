@@ -6,21 +6,21 @@
 # 4. Save — the site rebuilds automatically
 
 # Display name (shown on the Team page)
-title: First Last
+title: Tiia Nikupaavola
 
 # Full name for SEO
-first_name: First
-last_name: Last
+first_name: Tiia
+last_name: Nikupaavola
 
 # Set to true for the Principal Investigator
 superuser: false
 
 # Role / position
-role: Principal Investigator
+role: Doctoral researcher
 
 # Affiliation
 organizations:
-  - name: FILL IN university or institute name
+  - name: Tampere University
     url: ''                             # optional: link to department page
 
 # Short bio (shown below posts and publications)
@@ -33,9 +33,9 @@ interests:
 
 education:
   degrees:
-    - degree: PhD in Field
-      institution: University Name
-      year: 2010
+    - degree:
+      institution:
+      year:
 
 # Social links — remove lines you don't need
 social:
@@ -54,7 +54,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - TEMPLATE_DO_NOT_PUBLISH  # Change this to one of: Principal Investigator, Postdoctoral Researchers, Doctoral Researchers, Master's Students, Research Assistants, Laboratory Technicians, Alumni, Visitors
+  - Doctoral Researchers  # Change this to one of: Principal Investigators, Postdoctoral Researchers, Doctoral researcher, Master's Students, Research Assistants, Alumni, Visitors
 highlight_name: true
 ---
 

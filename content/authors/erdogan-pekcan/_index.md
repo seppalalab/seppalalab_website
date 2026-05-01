@@ -6,21 +6,21 @@
 # 4. Save — the site rebuilds automatically
 
 # Display name (shown on the Team page)
-title: First Last
+title: Erdogan Pekcan
 
 # Full name for SEO
-first_name: First
-last_name: Last
+first_name: Erdogan
+last_name: Pekcan
 
 # Set to true for the Principal Investigator
 superuser: false
 
 # Role / position
-role: Principal Investigator
+role: Postdoctoral Researcher
 
 # Affiliation
 organizations:
-  - name: FILL IN university or institute name
+  - name: Tampere University
     url: ''                             # optional: link to department page
 
 # Short bio (shown below posts and publications)
@@ -42,6 +42,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:email@university.edu'
+  - icon: twitter
+    icon_pack: fab
+    link: 'https://twitter.com/username'
   - icon: google-scholar
     icon_pack: ai
     link: 'https://scholar.google.com/citations?user=XXXXX'
@@ -54,7 +57,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - TEMPLATE_DO_NOT_PUBLISH  # Change this to one of: Principal Investigator, Postdoctoral Researchers, Doctoral Researchers, Master's Students, Research Assistants, Laboratory Technicians, Alumni, Visitors
+  - Postdoctoral Researchers
 highlight_name: true
 ---
 

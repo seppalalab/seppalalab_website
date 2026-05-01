@@ -6,17 +6,17 @@
 # 4. Save — the site rebuilds automatically
 
 # Display name (shown on the Team page)
-title: First Last
+title: Julia Kolikova
 
 # Full name for SEO
-first_name: First
-last_name: Last
+first_name: Julia
+last_name: Kolikova
 
 # Set to true for the Principal Investigator
 superuser: false
 
 # Role / position
-role: Principal Investigator
+role: Laboratory coordinator
 
 # Affiliation
 organizations:
@@ -42,6 +42,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:email@university.edu'
+  - icon: twitter
+    icon_pack: fab
+    link: 'https://twitter.com/username'
   - icon: google-scholar
     icon_pack: ai
     link: 'https://scholar.google.com/citations?user=XXXXX'
@@ -54,7 +57,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - TEMPLATE_DO_NOT_PUBLISH  # Change this to one of: Principal Investigator, Postdoctoral Researchers, Doctoral Researchers, Master's Students, Research Assistants, Laboratory Technicians, Alumni, Visitors
+  - Research Technicians  # Change this to one of: Principal Investigators, Postdoctoral Researchers, Doctoral Researchers, Master's Students, Research Assistants, Alumni, Visitors
 highlight_name: true
 ---
 

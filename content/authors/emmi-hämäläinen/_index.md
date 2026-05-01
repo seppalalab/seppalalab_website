@@ -2,7 +2,7 @@
 title: Emmi Hämäläinen
 first_name: Emmi
 last_name: Hämäläinen
-superuser: true
+superuser: false
 role: Bioinformatician, Doctoral researcher
 organizations:
   - name: Tampere University
@@ -34,7 +34,7 @@ social:
     icon_pack: fab
     link: 'https://linkedin.com/in/emmihama'
 user_groups:
-  - PhD Students    # Change to whichever group applies: Principal Investigators, Postdoctoral Researchers, PhD Students, etc.
+  - Doctoral Researchers
 highlight_name: true
 ---
 

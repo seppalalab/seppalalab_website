@@ -12,9 +12,11 @@ sections:
       user_groups:
         - Principal Investigators
         - Postdoctoral Researchers
-        - PhD Students
+        - Doctoral Researchers
         - Master's Students
         - Research Assistants
+        - Research Technicians
+        - Laboratory Technicians
         - Alumni
         - Visitors
       sort_by: Params.last_name
