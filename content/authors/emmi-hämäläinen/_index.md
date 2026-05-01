@@ -33,6 +33,8 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: 'https://linkedin.com/in/emmihama'
+user_groups:
+  - PhD Students    # Change to whichever group applies: Principal Investigators, Postdoctoral Researchers, PhD Students, etc.
 highlight_name: true
 ---
 

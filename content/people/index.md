@@ -1,11 +1,26 @@
 ---
 title: Team
 date: 2024-01-01
+type: landing
 
-# Optional header image (relative to assets/media/ folder)
-header:
-  caption: ''
-  image: ''
+sections:
+  - block: people
+    content:
+      title: Meet the Team
+      # Add or remove groups below to match your lab structure.
+      # Each author profile must list one of these groups in its user_groups field.
+      user_groups:
+        - Principal Investigators
+        - Postdoctoral Researchers
+        - PhD Students
+        - Master's Students
+        - Research Assistants
+        - Alumni
+        - Visitors
+      sort_by: Params.last_name
+      sort_ascending: true
+    design:
+      show_interests: true
+      show_role: true
+      show_social: true
 ---
-
-Meet the Seppälä Lab team. Individual profiles are managed in `content/authors/`.
