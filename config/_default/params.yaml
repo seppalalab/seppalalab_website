@@ -1,0 +1,89 @@
+# SITE SETUP
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+
+# Appearance
+appearance:
+  theme_day: minimal
+  theme_night:
+  font: native
+  font_size: L
+
+# SEO
+marketing:
+  seo:
+    site_type: Organization
+    local_business_type: ''
+    org_name: 'Seppälä Lab'
+    description: 'Seppälä Lab — research group website.'
+    twitter: ''
+  analytics:
+    google_analytics: ''    # Add your GA4 tag here in Phase 2, e.g. G-XXXXXXXXXX
+    google_tag_manager: ''
+  verification:
+    google: ''
+
+# Site header
+header:
+  navbar:
+    enable: true
+    align: r
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
+
+# Site footer
+footer:
+  copyright:
+    notice: '© {year} Seppälä Lab'
+    license:
+      enable: false
+
+# Localization
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
+
+# Contact details (shown on the Contact page and footer)
+contact:
+  email: ''         # Fill in: lab email address
+  phone: ''
+  address:
+    street: ''
+    city: ''
+    region: ''
+    postcode: ''
+    country: ''
+    country_code: ''
+  coordinates:
+    latitude: ''
+    longitude: ''
+  directions: ''
+  office_hours: ''
+  appointment_url: ''
+  contact_links: []
+
+# Site features
+features:
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: ''           # Fill in: GitHub repo URL in Phase 2
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+  search:
+    provider: wowchemy
+  map:
+    provider: ''
+    api_key: ''
+    zoom: 15

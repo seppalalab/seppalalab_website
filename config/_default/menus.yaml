@@ -1,0 +1,19 @@
+# Navigation bar links
+# weight controls display order (lower = left/first)
+
+main:
+  - name: Research
+    url: research
+    weight: 10
+  - name: Team
+    url: people
+    weight: 20
+  - name: News
+    url: post
+    weight: 30
+  - name: Publications
+    url: publication
+    weight: 40
+  - name: Contact
+    url: contact
+    weight: 50
