@@ -6,11 +6,11 @@ name = "Seppala"
   # Burgundy accent — matches the logo text and dark circles
   primary = "#6B2737"
 
-  # Navbar: burgundy background with white text
-  menu_primary = "#6B2737"
-  menu_text = "#f5f0f1"
-  menu_text_active = "#ffffff"
-  menu_title = "#ffffff"
+  # Navbar: white background with burgundy accent (matches logo)
+  menu_primary = "#ffffff"
+  menu_text = "#4a4a4a"
+  menu_text_active = "#6B2737"
+  menu_title = "#6B2737"
 
   # Page sections: white + very subtle warm off-white
   home_section_odd = "#ffffff"
