@@ -23,6 +23,7 @@ from Bio import Entrez, Medline
 AUTHOR_QUERY = "Seppala TT[Author]"
 EMAIL = "emmihama@gmail.com"     # required by NCBI (identifies your requests)
 MAX_RESULTS = 200                # increase if the author has more publications
+START_DATE = "2021/01/01"        # fetch only publications on or after this date (YYYY/MM/DD), or set to None for all
 OUTPUT_BIB = "_planning/pubmed_export.bib"
 CONTENT_DIR = "content/publication"
 # ──────────────────────────────────────────────────────────────────────────────
@@ -30,9 +31,15 @@ CONTENT_DIR = "content/publication"
 Entrez.email = EMAIL
 
 
-def search_pubmed(query, max_results):
-    print(f"Searching PubMed: {query}")
-    handle = Entrez.esearch(db="pubmed", term=query, retmax=max_results)
+def search_pubmed(query, max_results, start_date=None):
+    date_info = f" from {start_date}" if start_date else ""
+    print(f"Searching PubMed: {query}{date_info}")
+    kwargs = dict(db="pubmed", term=query, retmax=max_results)
+    if start_date:
+        kwargs["datetype"] = "pdat"       # filter by publication date
+        kwargs["mindate"] = start_date
+        kwargs["maxdate"] = "3000/12/31"  # no upper limit
+    handle = Entrez.esearch(**kwargs)
     record = Entrez.read(handle)
     handle.close()
     ids = record["IdList"]
@@ -143,7 +150,7 @@ tags: []
 def main():
     os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-    pmids = search_pubmed(AUTHOR_QUERY, MAX_RESULTS)
+    pmids = search_pubmed(AUTHOR_QUERY, MAX_RESULTS, START_DATE)
     if not pmids:
         print("No results found. Check the author query.")
         sys.exit(1)
