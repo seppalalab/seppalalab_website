@@ -44,13 +44,13 @@ social:
     link: 'mailto:email@university.edu'
   - icon: google-scholar
     icon_pack: ai
-    link: 'https://scholar.google.com/citations?user=XXXXX'
+    link: 'https://scholar.google.com/citations?user=4cIDnt8AAAAJ'
   - icon: github
     icon_pack: fab
     link: 'https://github.com/username'
   - icon: linkedin
     icon_pack: fab
-    link: 'https://linkedin.com/in/username'
+    link: 'https://linkedin.com/in/kallehokkanen'
 
 # Highlight name in author lists
 user_groups:
