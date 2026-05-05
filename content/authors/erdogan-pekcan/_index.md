@@ -9,8 +9,8 @@
 title: Erdogan Pekcan Erkan
 
 # Full name for SEO
-first_name: Erdogan
-last_name: Pekcan
+first_name: Erdogan Pekcan
+last_name: Erkan
 
 # Set to true for the Principal Investigator
 superuser: false
@@ -27,30 +27,30 @@ organizations:
 bio: One or two sentences about research interests.
 
 interests:
-  - Research Interest 1
-  - Research Interest 2
-  - Research Interest 3
+  - Cancer biology
+  - Single cell and spatial technologies
+  - 
 
 education:
   degrees:
-    - degree: PhD in Field
-      institution: University Name
-      year: 2010
+    - degree: PhD in Clinical Experimental Oncology
+      institution: Medical University of Vienna
+      year: 2013
 
 # Social links — remove lines you don't need
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:email@university.edu'
+    link: 'mailto:erdogan.erkan@tuni.fi'
   - icon: google-scholar
     icon_pack: ai
-    link: 'https://scholar.google.com/citations?user=XXXXX'
+    link: 'https://scholar.google.com/citations?user=5qnWz_oAAAAJ'
   - icon: github
     icon_pack: fab
-    link: 'https://github.com/username'
+    link: 'https://github.com/eperkan'
   - icon: linkedin
     icon_pack: fab
-    link: 'https://linkedin.com/in/username'
+    link: 'https://linkedin.com/in/eperkan'
 
 # Highlight name in author lists
 user_groups:
