@@ -29,7 +29,6 @@ bio: One or two sentences about research interests.
 interests:
   - Cancer biology
   - Single cell and spatial technologies
-  - 
 
 education:
   degrees:
@@ -58,5 +57,4 @@ user_groups:
 highlight_name: true
 ---
 
-Write a longer bio here (1–3 paragraphs). This is shown on the person's individual profile page.
-This supports **Markdown** formatting.
+I am a senior postdoctoral researcher in cancer biology at Tampere University, specializing in colorectal cancer with a focus on chemotherapy resistance tumor microenvironment. My research combines in vitro models with multimodal omics analyses to identify therapeutic vulnerabilities and biomarkers for precision oncology.
