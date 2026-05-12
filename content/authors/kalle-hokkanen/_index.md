@@ -27,9 +27,10 @@ organizations:
 bio: One or two sentences about research interests.
 
 interests:
-  - Research Interest 1
-  - Research Interest 2
-  - Research Interest 3
+  - Lynch syndrome
+  - Colorectal cancer
+  - Oncogenomics
+  - Biostatistics
 
 education:
   degrees:
@@ -58,5 +59,5 @@ user_groups:
 highlight_name: true
 ---
 
-Write a longer bio here (1–3 paragraphs). This is shown on the person's individual profile page.
+I am a doctoral candidate in the biology, carcinogenesis and epidemiology of Lynch syndrome, with an informal side hustle as the group consulting biostatistician and philosopher of science. I mostly work remotely with Maikki the cat as my sole colleague and outside research, I enjoy the sauna, spending time at the summer cottage, reading, endurance sports, especially cycling, and the occasional imported beer.
 This supports **Markdown** formatting.
