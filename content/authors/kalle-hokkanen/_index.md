@@ -60,4 +60,3 @@ highlight_name: true
 ---
 
 I am a doctoral candidate in the biology, carcinogenesis and epidemiology of Lynch syndrome, with an informal side hustle as the group consulting biostatistician and philosopher of science. I mostly work remotely with Maikki the cat as my sole colleague and outside research, I enjoy the sauna, spending time at the summer cottage, reading, endurance sports, especially cycling, and the occasional imported beer.
-This supports **Markdown** formatting.
