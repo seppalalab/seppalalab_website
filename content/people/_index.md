@@ -11,7 +11,7 @@ sections:
       # Each author profile must list one of these groups in its user_groups field.
       user_groups:
         - Principal investigator
-        - Postdoctoral Researchers
+        - Postdoctoral researchers
         - Project manager
         - Doctoral researchers
         - Master's students
