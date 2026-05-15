@@ -41,7 +41,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:email@university.edu'
+    link: 'mailto:tiia.nikupaavola@tuni.fi'
   - icon: google-scholar
     icon_pack: ai
     link: 'https://scholar.google.com/citations?user=XXXXX'
@@ -54,8 +54,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - Doctoral Researchers  # Change this to one of: Principal Investigators, Postdoctoral Researchers, Doctoral researcher, Master's Students, Research Assistants, Alumni, Visitors
-highlight_name: true
+  - Doctoral researchers
 ---
 
 Write a longer bio here (1–3 paragraphs). This is shown on the person's individual profile page.
