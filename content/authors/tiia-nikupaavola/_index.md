@@ -27,10 +27,11 @@ organizations:
 bio: One or two sentences about research interests.
 
 interests:
-  - Research Interest 1
-  - Research Interest 2
-  - Research Interest 3
-
+  - Tumor microenvironment
+  - Histology
+  - Cancer biology
+  - Immunology
+    
 education:
   degrees:
     - degree:
@@ -42,20 +43,14 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:tiia.nikupaavola@tuni.fi'
-  - icon: google-scholar
-    icon_pack: ai
-    link: 'https://scholar.google.com/citations?user=XXXXX'
-  - icon: github
-    icon_pack: fab
-    link: 'https://github.com/username'
   - icon: linkedin
     icon_pack: fab
-    link: 'https://linkedin.com/in/username'
+    link: 'https://www.linkedin.com/in/tiia-nikupaavola-2407b699/'
 
 # Highlight name in author lists
 user_groups:
   - Doctoral researchers
 ---
 
-Write a longer bio here (1–3 paragraphs). This is shown on the person's individual profile page.
-This supports **Markdown** formatting.
+I am a doctoral researcher studying cancer biology with a focus on how features within tumor microenvironment (TME) influence disease progression. One of my projects examines the TME in rectal cancer, aiming to describe features that underlie inaccurate lymph node staging by MRI. Using quantitative tissue analyses, I characterize immune cell patterns and spatial organization within tumors to identify markers that could improve staging accuracy.
+In parallel, I investigate Lynch syndrome (LS)–associated tumors, with the goal of uncovering molecular and microenvironmental similarities between the tumor spectrum. This work integrates molecular profiling with histological laboratory methods and tissue-level analyses to better understand how genetic alterations shape immune responses in hereditary cancers. Together, these projects contribute to a broader goal of improving patient stratification and enabling more precise, biology-driven treatment approaches.
