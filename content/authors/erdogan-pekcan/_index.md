@@ -21,7 +21,7 @@ role: Postdoctoral Researcher
 # Affiliation
 organizations:
   - name: Tampere University
-    url: ''                             # optional: link to department page
+    url: ''                            
 
 # Short bio (shown below posts and publications)
 bio: One or two sentences about research interests.
@@ -53,7 +53,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - Postdoctoral Researchers
+  - Postdoctoral researchers
 highlight_name: true
 ---
 
