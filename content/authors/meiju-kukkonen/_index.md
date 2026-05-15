@@ -54,7 +54,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - Laboratory coodinators  
+  - Laboratory coordinators  
 highlight_name: true
 ---
 
