@@ -54,7 +54,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - Doctoral Researchers
+  - Doctoral researchers
 highlight_name: true
 ---
 
