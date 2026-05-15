@@ -16,7 +16,6 @@ sections:
         - Doctoral researchers
         - Master's students
         - Research assistants
-        - Research technicians
         - Laboratory coordinators
         - Alumni
         - Visitors
