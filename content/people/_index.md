@@ -10,13 +10,14 @@ sections:
       # Add or remove groups below to match your lab structure.
       # Each author profile must list one of these groups in its user_groups field.
       user_groups:
-        - Principal Investigators
+        - Principal investigator
         - Postdoctoral Researchers
-        - Doctoral Researchers
-        - Master's Students
-        - Research Assistants
-        - Research Technicians
-        - Laboratory Technicians
+        - Project manager
+        - Doctoral researchers
+        - Master's students
+        - Research assistants
+        - Research technicians
+        - Laboratory coordinators
         - Alumni
         - Visitors
       sort_by: Params.last_name
