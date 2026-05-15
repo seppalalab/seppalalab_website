@@ -54,7 +54,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - Doctoral Researchers  # Change this to one of: Principal Investigator, Postdoctoral Researchers, Doctoral Researchers, Master's Students, Research Assistants, Laboratory Technicians, Alumni, Visitors
+  - Doctoral researchers 
 highlight_name: true
 ---
 
