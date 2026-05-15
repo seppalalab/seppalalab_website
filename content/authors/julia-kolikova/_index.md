@@ -41,7 +41,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:email@university.edu'
+    link: 'mailto:julia.kolikova@helsinki.fi'
   - icon: twitter
     icon_pack: fab
     link: 'https://twitter.com/username'
@@ -57,7 +57,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - Research Technicians  # Change this to one of: Principal Investigators, Postdoctoral Researchers, Doctoral Researchers, Master's Students, Research Assistants, Alumni, Visitors
+  - Laboratory coordinators 
 highlight_name: true
 ---
 
