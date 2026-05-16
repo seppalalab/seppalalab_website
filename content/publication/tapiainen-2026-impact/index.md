@@ -38,7 +38,7 @@ abstract: 'BACKGROUND: Tumour microenvironment and cancer cells have constant in
 featured: true
 
 doi: '10.1080/07853890.2025.2606512'
-url_pdf: 'paper.pdf'
+url_pdf: 'publication/tapiainen-2026-impact/paper.pdf'
 url_code: ''
 url_dataset: ''
 

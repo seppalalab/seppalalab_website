@@ -37,7 +37,7 @@ abstract: 'Tumor budding is an established adverse prognostic factor in colorect
 featured: true
 
 doi: '10.1007/s00428-026-04471-9'
-url_pdf: 'paper.pdf'
+url_pdf: 'publication/aijala-2026-distance-based/paper.pdf'
 url_code: ''
 url_dataset: ''
 
