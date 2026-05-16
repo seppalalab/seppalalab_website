@@ -27,10 +27,10 @@ organizations:
 bio: One or two sentences about research interests.
 
 interests:
-  - Research Interest 1
-  - Research Interest 2
-  - Research Interest 3
-
+  - Patient-Derived Cancer Models
+  - 3D Cell Cultures,
+  - Functional Drug Screening
+    
 education:
   degrees:
     - degree: PhD in Field
@@ -42,18 +42,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:julia.kolikova@helsinki.fi'
-  - icon: twitter
-    icon_pack: fab
-    link: 'https://twitter.com/username'
-  - icon: google-scholar
-    icon_pack: ai
-    link: 'https://scholar.google.com/citations?user=XXXXX'
-  - icon: github
-    icon_pack: fab
-    link: 'https://github.com/username'
   - icon: linkedin
     icon_pack: fab
-    link: 'https://linkedin.com/in/username'
+    link: 'https://www.linkedin.com/in/julia-kolikova-2b740443/'
 
 # Highlight name in author lists
 user_groups:
@@ -61,5 +52,5 @@ user_groups:
 highlight_name: true
 ---
 
-Write a longer bio here (1–3 paragraphs). This is shown on the person's individual profile page.
-This supports **Markdown** formatting.
+I joined the group as Laboratory Coordinator in 2021 when the lab was first established in Helsinki. Today, I continue to manage our wet-lab operations on the Helsinki side, ensuring our research workflows run seamlessly.
+My role focuses mainly on patient-derived cancer models. Working closely with study nurses, I receive clinical cancer tissue samples and process them into 3D Patient-Derived Tissue Organoids (PDTOs), on which I perform functional drug testing. I also handle the preparation of frozen and formalin-fixed specimens for our sample cohort collection and oversee general laboratory maintenance.
