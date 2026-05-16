@@ -21,7 +21,7 @@ role: Principal Investigator
 # Affiliation
 organizations:
   - name: Tampere University
-    url: ''   # optional: link to department page
+    url: 'https://www.tuni.fi/fi/ihmiset/toni-seppala'
   - name: Tampere University Hospital Cancer Centre
     url: ''   # optional: link to department page
 
@@ -35,9 +35,12 @@ interests:
   
 education:
   degrees:
-    - degree: PhD in Field
-      institution: University Name
+    - degree: MD
+      institution: University of Eastern Finland
       year: 2010
+    - degree: PhD
+      institution: University of Eastern Finland
+      year: 2012
 
 # Social links — remove lines you don't need
 social:
