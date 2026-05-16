@@ -31,8 +31,8 @@ interests:
   - Single cell and spatial technologies
 
 education:
-  degrees:
-    - degree: PhD in Clinical Experimental Oncology
+  courses:
+    - course: PhD in Clinical Experimental Oncology
       institution: Medical University of Vienna
       year: 2013
 

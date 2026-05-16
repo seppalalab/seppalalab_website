@@ -32,8 +32,8 @@ interests:
   - Research Interest 3
 
 education:
-  degrees:
-    - degree:
+  courses:
+    - course:
       institution:
       year:
 

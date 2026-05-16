@@ -32,8 +32,8 @@ interests:
   - Research Interest 3
 
 education:
-  degrees:
-    - degree: PhD in Field
+  courses:
+    - course: PhD in Field
       institution: University Name
       year: 2010
 

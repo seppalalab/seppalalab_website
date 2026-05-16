@@ -9,18 +9,18 @@ organizations:
     url: 'https://www.tuni.fi/en'
 bio: Computational biology, multi-modal data analysis
 interests:
-  - Computational biology
-  - Multi-modal analysis
-  - Integration
+  - Colorectal cancer
+  - Multi-modal integration
+  - Spatial profiling
 education:
-  degrees:
-    - degree: BSc in Biomedicine
+  courses:
+    - course: BSc in Biomedicine
       institution: University of Eastern Finland
       year: 2017
-    - degree: MSc in Biomedicine
+    - course: MSc in Biomedicine
       institution: University of Eastern Finland
       year: 2019
-    - degree: MSc in Bioinformatics
+    - course: MSc in Bioinformatics
       institution: Tampere University
       year: 2022
 social:
@@ -38,4 +38,4 @@ user_groups:
 highlight_name: true
 ---
 
-This is the first author draft.
+I am a Doctoral researcher at Tampere University, focusing on multimodal tumor profiling and biologically informed patient stratification in colorectal cancer. My research integrates bulk transcriptomics, whole-exome sequencing, and multiplex spatial profiling across a large CRC cohort to characterize tumor ecosystem heterogeneity and translate molecular and microenvironmental patterns into recurrence risk signatures. I work across secure HPC and Azure ML environments, combining bash, R, and Python, guided by the research question rather than a fixed toolkit.

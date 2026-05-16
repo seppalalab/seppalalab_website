@@ -33,8 +33,8 @@ interests:
   - Immunology
     
 education:
-  degrees:
-    - degree:
+  courses:
+    - course:
       institution:
       year:
 

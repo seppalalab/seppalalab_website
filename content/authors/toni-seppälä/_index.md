@@ -34,11 +34,11 @@ interests:
   - Colorectal cancer
   
 education:
-  degrees:
-    - degree: MD
+  courses:
+    - course: MD
       institution: University of Eastern Finland
       year: 2010
-    - degree: PhD
+    - course: PhD
       institution: University of Eastern Finland
       year: 2012
 
