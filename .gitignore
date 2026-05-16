@@ -11,3 +11,6 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Local Claude context — not needed in remote
+CLAUDE.md
