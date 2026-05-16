@@ -87,3 +87,7 @@ features:
     provider: ''
     api_key: ''
     zoom: 15
+
+extensions:
+  academicons:
+    enable: true
