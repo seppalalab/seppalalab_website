@@ -16,12 +16,12 @@ publication_types: ['2']
 publication: '*Gastroenterology*'
 publication_short: ''
 
-abstract: ''
+abstract: 'Lynch syndrome–associated colorectal cancers in MLH1 mutation carriers are driven by somatic mutations in Wnt signaling pathway genes. This study reveals that these mutations are heterogeneous across tumors, highlighting Wnt pathway dysregulation as a central but diverse oncogenic mechanism in MLH1-deficient hereditary colorectal cancer.'
 
-featured: false
+featured: true
 
 doi: 'S0016-5085(25)06135-9'
-url_pdf: ''
+url_pdf: 'paper.pdf'
 url_code: ''
 url_dataset: ''
 
