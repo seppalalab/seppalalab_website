@@ -14,15 +14,15 @@ interests:
   - Spatial profiling
 education:
   courses:
-    - course: BSc in Biomedicine
-      institution: University of Eastern Finland
-      year: 2017
-    - course: MSc in Biomedicine
-      institution: University of Eastern Finland
-      year: 2019
     - course: MSc in Bioinformatics
       institution: Tampere University
       year: 2022
+    - course: MSc in Biomedicine
+      institution: University of Eastern Finland
+      year: 2019
+    - course: BSc in Biomedicine
+      institution: University of Eastern Finland
+      year: 2017
 social:
   - icon: envelope
     icon_pack: fas
