@@ -349,6 +349,89 @@ Example — to move Research before People, give Research a lower weight:
 
 Fix the problem in the file and commit again — a new build will start automatically.
 
+### Update the featured publications (with results figure)
+
+The Publications page shows three highlighted papers at the top, each with a result figure, abstract, PDF link, and article link. To swap one out for another paper:
+
+**Step 1 — Remove the old featured paper from the spotlight**
+
+Open the old paper's `index.md` (e.g. `content/publication/lastname-year-keyword/index.md`) and change:
+
+```yaml
+featured: true
+```
+to:
+```yaml
+featured: false
+```
+
+Also clear the pdf field if it was set:
+```yaml
+url_pdf: ''
+```
+
+**Step 2 — Prepare the new paper's folder**
+
+The new featured paper needs three files inside its folder (`content/publication/<folder>/`):
+
+| File | What it is |
+|---|---|
+| `index.md` | Already exists — you will edit it |
+| `featured.png` | The main result figure (PNG or JPG, named exactly `featured.png`) |
+| `paper.pdf` | The PDF of the paper |
+
+Upload `featured.png` and `paper.pdf` to the publication folder (GitHub: **Add file → Upload files**; local: copy files into the folder).
+
+**Step 3 — Edit the new paper's `index.md`**
+
+Set the following fields:
+
+```yaml
+featured: true
+
+url_pdf: 'publication/<folder-name>/paper.pdf'
+```
+
+Replace `<folder-name>` with the actual folder name, for example:
+
+```yaml
+url_pdf: 'publication/hokkanen-2026-mlh1/paper.pdf'
+```
+
+Make sure `abstract:` is filled in — it appears below the figure on the page. If the paper has no formal abstract (e.g. a letter or perspective), write a short 2–3 sentence summary there.
+
+**Step 4 — Commit and push**
+
+Save and push the changes. The site will rebuild automatically within 1–2 minutes.
+
+> **Note:** The Publications page displays **all** papers marked `featured: true`. If you have more than three, all will appear. If you want exactly three, ensure only three papers have `featured: true`.
+
+---
+
+### Update the selected recent publications list
+
+The Publications page shows the five most recent non-featured papers in a citation list below the highlighted section. This list updates **automatically** based on each paper's `date:` field — no manual curation is needed for the normal case.
+
+**To change how many recent papers are shown:**
+
+Open `content/publication/_index.md` and change the `count:` value under the second `block: collection` section:
+
+```yaml
+count: 5   # change this number
+```
+
+**To exclude a specific paper from this list without deleting it:**
+
+Mark it as featured (`featured: true`) — it will move to the highlighted section instead. Or set it to a draft (`draft: true`) to hide it entirely.
+
+**To control which papers appear (manual curation):**
+
+The list is sorted by `date:` descending. If you want a specific older paper to appear, update its `date:` field to a more recent date. If you want to push a paper down, set its date earlier.
+
+> **Important:** The date field format is `'YYYY-MM-DD'`. Changing a date only affects display order — it does not affect the DOI or citation information.
+
+---
+
 ## Quick reference for common tasks
 
 | Task | Recommended method | File to edit |
@@ -363,6 +446,8 @@ Fix the problem in the file and commit again — a new build will start automati
 | Change navigation order | Either | `config/_default/menus.yaml` — adjust `weight:` values |
 | Update contact info | Either | `config/_default/params.yaml` |
 | Add a PDF download | Either | Place file in `static/`, link in content |
+| Swap a featured publication | Local preferred | Set `featured: true/false`, add `featured.png` + `paper.pdf`, set `url_pdf` |
+| Change number of recent publications shown | Either | `content/publication/_index.md` — update `count:` |
 | Change colour scheme | Either | `config/_default/params.yaml` — update `theme_day:` |
 | Replace site logo or favicon | Local preferred | Replace files in `assets/media/` |
 | Set up a custom domain | Local preferred | Add `static/CNAME`, update `baseURL` in `hugo.yaml` |
