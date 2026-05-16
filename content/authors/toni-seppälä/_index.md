@@ -29,10 +29,10 @@ organizations:
 bio: One or two sentences about research interests.
 
 interests:
-  - Research Interest 1
-  - Research Interest 2
-  - Research Interest 3
-
+  - Precision medicine
+  - Lynch syndrome
+  - Colorectal cancer
+  
 education:
   degrees:
     - degree: PhD in Field
@@ -57,5 +57,5 @@ user_groups:
 highlight_name: true
 ---
 
-Write a longer bio here (1–3 paragraphs). This is shown on the person's individual profile page.
-This supports **Markdown** formatting.
+Personalized medicine in surgical context with gastrointestinal cancer organoids & cancer biomarkers @Seppälä Lab. Spotlight on Lynch Syndrome focusing on CRC, in collaboration with EHTG and PLSD. 
+Main job at Tampere University and Tampere University Hospital, in addition to Helsinki University and hospital. GI surgeon by training, tenure track Professor at Tampere and PI at University of Helsinki and Applied Tumor Genomics Research Program. Johns Hopkins alumni.
