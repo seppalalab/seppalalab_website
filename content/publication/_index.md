@@ -26,7 +26,8 @@ sections:
         folders:
           - publication
         exclude_featured: true
-      buttons: []
+      archive:
+        enable: false
     design:
       view: citation
       columns: '1'
