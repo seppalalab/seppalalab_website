@@ -34,7 +34,7 @@ social:
     icon_pack: fab
     link: 'https://linkedin.com/in/emmihama'
 user_groups:
-  - Doctoral researchers
+  - Team
 highlight_name: true
 ---
 

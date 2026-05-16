@@ -185,7 +185,10 @@
   },
   "active": "12fbe48cc92a1dd0",
   "lastOpenFiles": [
+    "Archive/~$website-pages-plan.pptx",
+    "content/authors/pi-template/_index.md",
     "website-maintaining-guidelines.md",
+    "content/authors/erdogan-pekcan/_index.md",
     "CLAUDE.md",
     "assets/media/favicon.png",
     "public/media/favicon.png",
@@ -195,7 +198,6 @@
     "content/authors/joni-panula",
     "content/authors/emma-pakkanen/_index.md",
     "content/authors/emmi-hämäläinen/_index copy.md",
-    "content/authors/erdogan-pekcan/_index.md",
     "content/authors/julia-kolikova/_index.md",
     "content/authors/kalle-hokkanen/_index.md",
     "content/authors/kalle-ojala/_index.md",
@@ -228,8 +230,6 @@
     "content/publication/seppala-2015-coexisting/index.md",
     "content/publication/herukka-2015-amyloid-beta/index.md",
     "content/publication/liipo-2015-de/index.md",
-    "content/publication/seppala-2015-combination/index.md",
-    "content/publication/numerato-2015-mortality/index.md",
-    "content/publication/widstrom-2015-treatment/index.md"
+    "content/publication/seppala-2015-combination/index.md"
   ]
 }

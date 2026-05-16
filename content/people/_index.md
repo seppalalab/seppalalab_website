@@ -11,12 +11,7 @@ sections:
       # Each author profile must list one of these groups in its user_groups field.
       user_groups:
         - Principal investigator
-        - Postdoctoral researchers
-        - Project manager
-        - Doctoral researchers
-        - Master's students
-        - Research assistants
-        - Laboratory coordinators
+        - Team
         - Alumni
         - Visitors
       sort_by: Params.last_name

@@ -53,7 +53,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - Postdoctoral researchers
+  - Team
 highlight_name: true
 ---
 

@@ -54,7 +54,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - Project manager
+  - Team
 highlight_name: true
 ---
 

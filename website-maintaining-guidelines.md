@@ -242,12 +242,12 @@ The `static/` folder holds files that Hugo copies to the website as-is, without 
 
 **When to use it:**
 
-| File type | Example | Resulting URL |
-|---|---|---|
-| Downloadable PDFs | `static/papers/smith2024.pdf` | `yoursite.com/papers/smith2024.pdf` |
-| Custom domain config | `static/CNAME` | Used by GitHub Pages, not visible to visitors |
-| Downloadable data files | `static/data/dataset.csv` | `yoursite.com/data/dataset.csv` |
-| Custom `robots.txt` | `static/robots.txt` | `yoursite.com/robots.txt` |
+| File type               | Example                       | Resulting URL                                 |
+| ----------------------- | ----------------------------- | --------------------------------------------- |
+| Downloadable PDFs       | `static/papers/smith2024.pdf` | `yoursite.com/papers/smith2024.pdf`           |
+| Custom domain config    | `static/CNAME`                | Used by GitHub Pages, not visible to visitors |
+| Downloadable data files | `static/data/dataset.csv`     | `yoursite.com/data/dataset.csv`               |
+| Custom `robots.txt`     | `static/robots.txt`           | `yoursite.com/robots.txt`                     |
 
 **How to link to a file in `static/` from a content page:**
 
