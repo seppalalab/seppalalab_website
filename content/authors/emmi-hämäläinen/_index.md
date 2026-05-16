@@ -20,9 +20,6 @@ education:
     - course: MSc in Biomedicine
       institution: University of Eastern Finland
       year: 2019
-    - course: BSc in Biomedicine
-      institution: University of Eastern Finland
-      year: 2017
 social:
   - icon: envelope
     icon_pack: fas
