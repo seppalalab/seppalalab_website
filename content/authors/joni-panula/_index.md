@@ -21,16 +21,17 @@ role: Doctoral researcher
 # Affiliation
 organizations:
   - name: Tampere University
-    url: ''                             # optional: link to department page
+    url: ''                             
 
 # Short bio (shown below posts and publications)
 bio: One or two sentences about research interests.
 
 interests:
-  - Research Interest 1
-  - Research Interest 2
-  - Research Interest 3
-
+  - Surgical oncology
+  - Cell and molecular biology
+  - Translational medicine
+  - Clinical trials
+    
 education:
   courses:
     - course:
@@ -41,22 +42,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:email@university.edu'
-  - icon: google-scholar
-    icon_pack: ai
-    link: 'https://scholar.google.com/citations?user=XXXXX'
-  - icon: github
-    icon_pack: fab
-    link: 'https://github.com/username'
-  - icon: linkedin
-    icon_pack: fab
-    link: 'https://linkedin.com/in/username'
-
+    link: 'mailto: joni.panula@tuni.fi'
+  
 # Highlight name in author lists
 user_groups:
   - Team
 highlight_name: true
 ---
 
-Write a longer bio here (1–3 paragraphs). This is shown on the person's individual profile page.
-This supports **Markdown** formatting.
+GI surgery resident and PhD student intrigued by the unresolved questions spanning basic tumor biology to clinical practice. 
+Especially drawn to translational intersections between bench and bedside, where mechanistic insights may lead to improved patient care.
