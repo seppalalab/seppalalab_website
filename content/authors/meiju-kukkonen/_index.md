@@ -42,9 +42,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:email@university.edu'
- - icon: linkedin
-    icon_pack: fab
-    link: 'https://linkedin.com/in/username'
 
 # Highlight name in author lists
 user_groups:
