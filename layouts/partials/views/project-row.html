@@ -1,0 +1,46 @@
+{{ $item := .item }}
+{{ $index := .index }}
+
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}{{ $target = "target=\"_blank\" rel=\"noopener\"" }}{{ end }}
+
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if $item.Summary }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+
+{{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+
+<div class="col-12 mb-4">
+  <div class="row align-items-center p-3 rounded border">
+
+    {{/* Logo column — skip image processing for SVG */}}
+    <div class="col-12 col-md-3 text-center mb-3 mb-md-0">
+      {{ with $resource }}
+        {{ if eq .MediaType.SubType "svg+xml" }}
+          <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" style="max-width: 100%; max-height: 120px; object-fit: contain;">
+        {{ else }}
+          {{ $image := .Process "resize 300x webp" }}
+          <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+            <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $item.Title }}" loading="lazy" style="max-width: 100%; max-height: 120px; object-fit: contain;">
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{/* Content column */}}
+    <div class="col-12 col-md-9">
+      <h3 class="mb-1">
+        <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a>
+      </h3>
+      {{ with $summary }}<p class="text-muted mb-2">{{ . }}</p>{{ end }}
+      <div class="btn-links">
+        {{ partial "page_links" (dict "page" $item "is_list" 0) }}
+      </div>
+    </div>
+
+  </div>
+</div>

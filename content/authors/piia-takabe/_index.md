@@ -16,15 +16,13 @@ last_name: Takabe
 superuser: false
 
 # Role / position
-role: Project manager
+role: Project Manager
 
 # Affiliation
 organizations:
   - name: Tampere University
-    url: ''                             # optional: link to department page
 
 # Short bio (shown below posts and publications)
-bio: One or two sentences about research interests.
 
 interests:
   - Tumor microenvironment

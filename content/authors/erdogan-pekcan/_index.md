@@ -24,7 +24,6 @@ organizations:
     url: ''                            
 
 # Short bio (shown below posts and publications)
-bio: One or two sentences about research interests.
 
 interests:
   - Cancer biology

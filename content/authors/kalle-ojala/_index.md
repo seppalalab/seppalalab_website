@@ -24,7 +24,6 @@ organizations:
     url: ''                             # optional: link to department page
 
 # Short bio (shown below posts and publications)
-bio: One or two sentences about research interests.
 
 interests:
   - Research Interest 1

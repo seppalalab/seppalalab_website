@@ -24,7 +24,6 @@ organizations:
     url: ''                             # optional: link to department page
 
 # Short bio (shown below posts and publications)
-bio: One or two sentences about research interests.
 
 interests:
   - Research Interest 1
@@ -51,6 +50,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: 'https://linkedin.com/in/username'
+  - icon: orcid
+    icon_pack: ai
+    link: 'https://orcid.org/0000-0000-0000-0000'
 
 # Highlight name in author lists
 user_groups:

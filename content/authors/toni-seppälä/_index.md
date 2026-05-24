@@ -23,16 +23,14 @@ organizations:
   - name: Tampere University
     url: 'https://www.tuni.fi/fi/ihmiset/toni-seppala'
   - name: Tampere University Hospital Cancer Centre
-    url: ''   # optional: link to department page
 
 # Short bio (shown below posts and publications)
-bio: One or two sentences about research interests.
 
 interests:
   - Precision medicine
   - Lynch syndrome
   - Colorectal cancer
-  
+
 education:
   courses:
     - course: MD
@@ -60,5 +58,5 @@ user_groups:
 highlight_name: true
 ---
 
-Personalized medicine in surgical context with gastrointestinal cancer organoids & cancer biomarkers @Seppälä Lab. Spotlight on Lynch Syndrome focusing on CRC, in collaboration with EHTG and PLSD. 
+Personalized medicine in surgical context with gastrointestinal cancer organoids & cancer biomarkers @Seppälä Lab. Spotlight on Lynch Syndrome focusing on CRC, in collaboration with EHTG and PLSD.
 Main job at Tampere University and Tampere University Hospital, in addition to Helsinki University and hospital. GI surgeon by training, tenure track Professor at Tampere and PI at University of Helsinki and Applied Tumor Genomics Research Program. Johns Hopkins alumni.

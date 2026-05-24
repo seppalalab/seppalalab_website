@@ -16,22 +16,20 @@ last_name: Nikupaavola
 superuser: false
 
 # Role / position
-role: Doctoral researcher
+role: Doctoral Researcher
 
 # Affiliation
 organizations:
   - name: Tampere University
-    url: ''                             # optional: link to department page
 
 # Short bio (shown below posts and publications)
-bio: One or two sentences about research interests.
 
 interests:
   - Tumor microenvironment
   - Histology
   - Cancer biology
   - Immunology
-    
+
 education:
   courses:
     - course:

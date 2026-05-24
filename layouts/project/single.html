@@ -1,0 +1,85 @@
+{{- define "main" -}}
+
+<article class="article article-project">
+
+  {{ partial "page_header.html" . }}
+
+  <div class="article-container">
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+    {{ partial "page_edit" . }}
+    {{ partial "tags" . }}
+
+    {{/* EU logo after tags, right-aligned */}}
+    {{ $eu_logo := .Resources.GetMatch "eu-logo*" }}
+    {{ with $eu_logo }}
+    <div class="mt-3" style="text-align: right;">
+      <img src="{{ .RelPermalink }}" alt="Co-funded by the European Union" style="max-width: 440px;">
+    </div>
+    {{ end }}
+
+    {{/* Core Team — shown only when authors are explicitly listed in frontmatter */}}
+    {{ if .Params.authors }}
+    <div class="content-widget-hr core-team-section">
+      <h4>Core Team</h4>
+      <div class="row">
+        {{ range (.GetTerms "authors") }}
+          {{ $author := .Page }}
+          {{ $avatar := ($author.Resources.ByType "image").GetMatch "*avatar*" }}
+          {{ $link := $author.RelPermalink }}
+          <div class="col-auto mb-3 text-center">
+            {{ if $avatar }}
+              {{ $img := $avatar.Fill "80x80 Center" }}
+              <a href="{{ $link }}"><img src="{{ $img.RelPermalink }}" class="avatar avatar-circle mb-2" style="width:80px;height:80px;" alt="{{ $author.Title }}"></a>
+            {{ end }}
+            <div><a href="{{ $link }}">{{ $author.Title }}</a></div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+    {{ partial "comments" . }}
+
+    {{ if .Params.pager }}
+    <div class="article-widget">
+      {{ partial "components/pager" . }}
+    </div>
+    {{ end }}
+
+    {{ partial "page_related" . }}
+
+    <div class="project-related-pages content-widget-hr">
+      {{ $page := . }}
+      {{ $project := .File.ContentBaseName }}
+
+      {{ $items := where (where site.RegularPages "Type" "post") ".Params.projects" "intersect" (slice $project) }}
+      {{ if ge (len $items) 1 }}
+        <h2>{{ (i18n "posts") }}</h2>
+        {{ range $index, $item := $items }}
+          {{ partial "functions/render_view" (dict "page" $ "item" . "view" (site.Params.projects.post_view | default "compact") "index" $index) }}
+        {{end}}
+      {{ end }}
+
+      {{ $items := where (where site.RegularPages "Type" "publication") ".Params.projects" "intersect" (slice $project) }}
+      {{ if ge (len $items) 1 }}
+        <h2>{{ (i18n "publications") }}</h2>
+        {{ range $index, $item := $items }}
+          {{ partial "functions/render_view" (dict "page" $ "item" . "view" (site.Params.projects.publication_view | default "compact") "index" $index) }}
+        {{end}}
+      {{ end }}
+
+      {{ $items := where (where site.RegularPages "Type" "event") ".Params.projects" "intersect" (slice $project) }}
+      {{ if ge (len $items) 1 }}
+        <h2>{{ (i18n "talks") }}</h2>
+        {{ range $index, $item := $items }}
+          {{ partial "functions/render_view" (dict "page" $ "item" . "view" (site.Params.projects.talk_view | default "compact") "index" $index) }}
+        {{end}}
+      {{ end }}
+    </div>
+  </div>
+</article>
+
+{{- end -}}

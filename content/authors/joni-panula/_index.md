@@ -16,22 +16,21 @@ last_name: Panula
 superuser: false
 
 # Role / position
-role: Doctoral researcher
+role: Doctoral Researcher
 
 # Affiliation
 organizations:
   - name: Tampere University
-    url: ''                             
+    url: ''
 
 # Short bio (shown below posts and publications)
-bio: One or two sentences about research interests.
 
 interests:
   - Surgical oncology
   - Cell and molecular biology
   - Translational medicine
   - Clinical trials
-    
+
 education:
   courses:
     - course:
@@ -43,12 +42,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto: joni.panula@tuni.fi'
-  
+
 # Highlight name in author lists
 user_groups:
   - Team
 highlight_name: true
 ---
 
-GI surgery resident and PhD student intrigued by the unresolved questions spanning basic tumor biology to clinical practice. 
+GI surgery resident and PhD student intrigued by the unresolved questions spanning basic tumor biology to clinical practice.
 Especially drawn to translational intersections between bench and bedside, where mechanistic insights may lead to improved patient care.

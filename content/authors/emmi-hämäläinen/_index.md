@@ -3,11 +3,9 @@ title: Emmi Hämäläinen
 first_name: Emmi
 last_name: Hämäläinen
 superuser: false
-role: Bioinformatician, Doctoral researcher
+role: Doctoral Researcher
 organizations:
   - name: Tampere University
-    url: 'https://www.tuni.fi/en'
-bio: Computational biology, multi-modal data analysis
 interests:
   - Colorectal cancer
   - Multi-modal integration

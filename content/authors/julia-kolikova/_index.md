@@ -16,21 +16,19 @@ last_name: Kolikova
 superuser: false
 
 # Role / position
-role: Laboratory coordinator
+role: Laboratory Coordinator
 
 # Affiliation
 organizations:
-  - name: FILL IN university or institute name
-    url: ''                             # optional: link to department page
+  - name: University of Helsinki
 
 # Short bio (shown below posts and publications)
-bio: One or two sentences about research interests.
 
 interests:
   - Patient-Derived Cancer Models
   - 3D Cell Cultures,
   - Functional Drug Screening
-    
+
 education:
   courses:
     - course: PhD in Field

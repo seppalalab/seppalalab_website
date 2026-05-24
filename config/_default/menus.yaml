@@ -3,8 +3,16 @@
 
 main:
   - name: Research
-    url: research
+    identifier: research
     weight: 10
+  - name: Our Research
+    url: research/
+    parent: research
+    weight: 11
+  - name: Funding & Collaboration
+    url: research/funding/
+    parent: research
+    weight: 12
   - name: Team
     url: people
     weight: 20

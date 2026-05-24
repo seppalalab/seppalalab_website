@@ -1,3 +1,9 @@
+/* Remove separator between Core Team heading and author cards */
+.core-team-section .author-card.content-widget-hr {
+  border-top: none;
+  padding-top: 0;
+}
+
 /* News page — smaller subheading font for section titles */
 .section-subheading-sm .section-heading h1,
 .section-subheading-sm .section-heading h2 {
