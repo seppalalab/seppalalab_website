@@ -1,0 +1,20 @@
+# Seppälä Lab dark theme
+# Colors: #671927 (dark red) + #979797 (dark gray), charcoal background
+name = "Seppala Dark"
+
+[light]
+  primary = "#671927"
+
+  menu_primary = "#2b2b2b"
+  menu_text = "#979797"
+  menu_text_active = "#c47a84"
+  menu_title = "#c47a84"
+
+  home_section_odd = "#2b2b2b"
+  home_section_even = "#333333"
+
+[dark]
+  primary = "#c47a84"
+
+  link = "#c47a84"
+  link_hover = "#d49aa3"

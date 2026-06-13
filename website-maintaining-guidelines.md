@@ -276,9 +276,46 @@ Short step-by-step guides for the most common maintenance situations.
 2. Remove their name from any publication `authors:` lists if you want to clean those up (not required — the name will just appear as plain text)
 
 **Option 2: Keep them listed as alumni**
-1. Open `content/authors/<name>/_index.md`
-2. Change their `role:` field to `Alumni` (or `Former PhD Student`, etc.)
-3. In `content/people/index.md`, check whether your people page has a separate alumni group — if so, update the `user_groups:` line in their profile to match
+
+Alumni are listed as plain text at the bottom of the Team page. To add or update an alumni entry:
+
+1. Open `content/people/_index.md`
+2. Find the `Alumni` markdown block near the bottom of the file
+3. Add a new line following this format:
+   ```
+   **First Name Last Name**, Degree — Role
+   ```
+   Examples:
+   ```
+   **Kornelia Kuc**, MSc — Student
+   **Samuli Rajala**, MSc — Research Assistant
+   **Katarina Andini** — Visiting Researcher
+   ```
+   - **Degree** = highest degree held or being pursued at the time (MSc, PhD, BSc) — omit if not applicable
+   - **Role** = their position in the lab (Student, Research Assistant, Visiting Researcher, Erasmus Exchange Student)
+4. Save and commit — the change appears on the Team page immediately after the next build
+
+> No separate author folder is needed for alumni. Current affiliation is intentionally not listed as it changes over time.
+
+### Add or update a visitor
+
+Visitors are listed as plain text at the bottom of the Team page, below Alumni. To add or update a visitor entry:
+
+1. Open `content/people/_index.md`
+2. Find the `Visitors` markdown block at the bottom of the file
+3. Add a new line following this format:
+   ```
+   **First Name Last Name**, Position from Affiliation
+   ```
+   Example:
+   ```
+   **Katarina Andini**, Doctoral Researcher from University of Groningen
+   ```
+   - **Position** = their role or degree status at the time of the visit (e.g. Doctoral Researcher, MSc Student, Postdoctoral Researcher)
+   - **Affiliation** = their home institution
+4. Save and commit — the change appears on the Team page after the next build
+
+> When a visitor leaves the lab, move their entry from the Visitors block to the Alumni block and update the format to `**Name**, Degree — Role`.
 
 ### Add a downloadable PDF (e.g. a preprint or dataset)
 
@@ -292,13 +329,67 @@ Short step-by-step guides for the most common maintenance situations.
    url_pdf: '/papers/smith2024.pdf'
    ```
 
+### Why HugoBlox was chosen
+
+HugoBlox was selected because it is the easiest framework for non-coders to maintain. It provides ready-made templates for academic content types — publications, team member profiles, and news posts — which can be updated by editing simple text fields without any coding knowledge.
+
+Switching to a different Hugo theme (non-HugoBlox) would require rewriting most of the site content and configuration, and would lose these built-in academic features. Switching to an entirely different platform (e.g. Jekyll, WordPress) would require a full site migration. Available HugoBlox colour themes are listed below — appearance can be changed without touching any other part of the site.
+
+---
+
 ### Change the site's colour scheme
 
-The colour theme is controlled in two places:
+The colour theme is set in `config/_default/params.yaml` under the `appearance:` section:
 
-1. **Switch to a built-in theme:** Open `config/_default/params.yaml`, find the `appearance:` section, and change `theme_day:` and `theme_night:` to any of the built-in HugoBlox theme names (e.g. `ocean`, `forest`, `rose`, `minimal`).
+```yaml
+appearance:
+  theme_day: seppala        # theme used in light mode
+  theme_night: seppala-dark # theme used in dark mode (optional)
+```
 
-2. **Create a custom theme:** Add a new YAML file in `data/themes/` (e.g. `data/themes/seppala.yaml`) following the format of the existing file there. Then set `theme_day: seppala` in `params.yaml`.
+#### Built-in themes
+
+These names can be used directly — no extra files needed. Only themes marked **Yes** in the `theme_day` column work as a day/light theme; the others are dark-only and must be used as `theme_night`.
+
+| Name         | Feel                        | `theme_day` | `theme_night` |
+| ------------ | --------------------------- | ----------- | ------------- |
+| `minimal`    | Clean white, black accents  | Yes         | —             |
+| `ocean`      | Blue tones                  | Yes         | —             |
+| `forest`     | Green tones                 | Yes         | —             |
+| `earth`      | Warm brown / terracotta     | Yes         | —             |
+| `rose`       | Pink / rose                 | Yes         | —             |
+| `coffee`     | Warm brown                  | Yes         | —             |
+| `strawberry` | Red / pink                  | Yes         | —             |
+| `1950s`      | Retro warm                  | Yes         | —             |
+| `cyberpunk`  | High contrast neon           | Yes         | —             |
+| `dark`       | Full dark                   | —           | Yes           |
+| `apogee`     | Dark navy                   | —           | Yes           |
+| `mr_robot`   | Dark hacker-style           | —           | Yes           |
+
+#### Custom themes (this site)
+
+Two custom themes are defined in `data/themes/`:
+
+| File                       | Name           | Use as       |
+| -------------------------- | -------------- | ------------ |
+| `data/themes/seppala.toml` | Seppala        | `theme_day`  |
+| `data/themes/seppala-dark.toml` | Seppala Dark | `theme_day` or `theme_night` |
+
+Both use the lab colour palette: `#671927` (dark red) and `#979797` (dark gray). The `seppala-dark` variant uses a charcoal background with burgundy accents for a darker feel.
+
+#### How to preview a theme without publishing
+
+1. Open `config/_default/params.yaml` and change `theme_day:` to the theme name you want to try
+2. Run `hugo server --buildDrafts` in the terminal
+3. Open `http://localhost:1313` in a browser — it updates live as you change the value
+4. Press `Ctrl + C` to stop. Revert the change in `params.yaml` if you don't want to keep it
+
+#### Create a new custom theme
+
+1. Create a new `.toml` file in `data/themes/` (e.g. `data/themes/mytheme.toml`)
+2. Copy the contents of `data/themes/seppala.toml` as a starting point
+3. Edit the colour hex values — the `[light]` section controls light mode, `[dark]` controls dark mode
+4. Set `theme_day: mytheme` in `params.yaml` to activate it
 
 > Changing the entire site framework (e.g. switching from HugoBlox to a completely different Hugo theme) is a major undertaking that requires rewriting most of the content front matter and configuration. It is not recommended unless there is a strong reason.
 
@@ -429,6 +520,52 @@ Mark it as featured (`featured: true`) — it will move to the highlighted secti
 The list is sorted by `date:` descending. If you want a specific older paper to appear, update its `date:` field to a more recent date. If you want to push a paper down, set its date earlier.
 
 > **Important:** The date field format is `'YYYY-MM-DD'`. Changing a date only affects display order — it does not affect the DOI or citation information.
+
+---
+
+### Write a plain-language summary for a publication
+
+The `abstract:` field in each publication's `index.md` is shown on the Publications page. It should be written in plain language that a general audience can understand — not a copy of the scientific abstract from the journal.
+
+> **Character limit: 750 characters maximum.** The Publications page displays the abstract in a fixed-height text area on highlighted publications. Summaries longer than 750 characters will be cut off. Aim for 3–4 concise sentences that fit within this limit.
+
+#### Option 1 — Using Claude Code (if you have access)
+
+Run the following slash command in the Claude Code terminal from the project root:
+
+```
+/summarize-publication <folder-name>
+```
+
+Example:
+```
+/summarize-publication hokkanen-2026-mlh1
+```
+
+Claude will read the publication, generate a 3–4 sentence plain-language summary within the 750-character limit, and update the `abstract:` field automatically. Review the before/after shown in the output before committing.
+
+#### Option 2 — Using any AI tool (ChatGPT, Copilot, etc.)
+
+1. Open the publication's `index.md` (e.g. `content/publication/hokkanen-2026-mlh1/index.md`)
+2. Copy the entire contents of the `index.md` file
+3. Paste the following prompt into your AI tool of choice, followed by the file contents:
+
+---
+
+> **Prompt to copy:**
+>
+> I need a plain-language summary of a scientific paper for a general public audience with no scientific background. Write 3–4 sentences. Use simple language — if a technical term is unavoidable, explain it in plain words. State what the research investigated, what was found, and why it matters for patients or society. Do not use bullet points. Do not start with "This study" or "This paper". Keep the summary under 750 characters total. Use all information in the file below to inform the summary.
+>
+> [PASTE THE FULL CONTENTS OF index.md HERE]
+
+---
+
+4. Copy the AI output
+5. Open the publication's `index.md` and replace the `abstract:` value with the new text, keeping the single quotes:
+   ```yaml
+   abstract: 'Your new plain-language summary goes here.'
+   ```
+6. Save and commit
 
 ---
 

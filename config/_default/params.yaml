@@ -7,7 +7,7 @@ appearance:
   theme_day: seppala
   theme_night:
   font: native
-  font_size: L
+  font_size: M
 
 # SEO
 marketing:
@@ -49,7 +49,7 @@ locale:
 
 # Contact details (shown on the Contact page and footer)
 contact:
-  email: ''         # Fill in: lab email address
+  email: 'tseppalalab@gmail.com'
   phone: ''
   address:
     street: ''

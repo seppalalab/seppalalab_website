@@ -47,7 +47,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - Team
+  - Lab Members
 ---
 
 I am a doctoral researcher studying cancer biology with a focus on how features within tumor microenvironment (TME) influence disease progression. One of my projects examines the TME in rectal cancer, aiming to describe features that underlie inaccurate lymph node staging by MRI. Using quantitative tissue analyses, I characterize immune cell patterns and spatial organization within tumors to identify markers that could improve staging accuracy.

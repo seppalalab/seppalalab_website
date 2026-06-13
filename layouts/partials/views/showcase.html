@@ -1,0 +1,83 @@
+{{ $item := .item }}
+{{ $widget := .page }}
+{{ $index := .index }}
+
+{{ $do_link := true }}
+{{ if $item.Params.external_link | or $item.Content }}
+  {{ $do_link = true }}
+{{ else }}
+  {{ $do_link = false }}
+{{ end }}
+
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $target := .target }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if $item.Params.abstract }}
+  {{ $summary = $item.Params.abstract | markdownify | emojify }}
+{{ else if $item.Summary }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+
+{{ $order := "" }}
+{{ if isset $widget "Params" }}
+  {{ if and ($widget.Params.design.flip_alt_rows | default true) (not (modBool $index 2)) }}
+    {{ $order = "order-md-2" }}
+  {{ end }}
+{{ else if and ($widget.design.flip_alt_rows | default true) (not (modBool $index 2)) }}
+  {{ $order = "order-md-2" }}
+{{ end }}
+
+
+<div class="col-lg-12 mb-5 view-showcase" style="background:#ffffff; border:1.5px solid #e8d5d8; border-radius:12px; padding:1.5rem; box-shadow:0 2px 14px rgba(103,25,39,0.08);">
+
+  {{/* Full-width title */}}
+  <div class="section-subheading article-title mb-1 mt-0">
+    {{- if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end -}}
+    {{ $item.Title | markdownify | emojify }}
+    {{- if $do_link}}</a>{{end -}}
+  </div>
+
+  <div class="row align-items-stretch">
+    <div class="col-12 col-md-6" style="display:flex; flex-direction:column;">
+      <div class="article-metadata mb-2">
+        <span class="article-date">{{ $item.Date.Format "2006" }}</span>
+        {{ if $item.Params.publication }}
+        <span class="middot-divider"></span>
+        <span class="pub-publication">{{ $item.Params.publication | markdownify }}</span>
+        {{ end }}
+        {{ if $item.Params.authors }}
+        <div class="mt-1" style="font-size:0.85rem; color:#666;">
+          {{ partial "page_metadata_authors" $item }}
+        </div>
+        {{ end }}
+      </div>
+
+      {{ with $summary }}
+      <div class="article-style" style="overflow:hidden; display:-webkit-box; -webkit-line-clamp:11; -webkit-box-orient:vertical; flex-grow:1;">
+        {{ . }}
+      </div>
+      {{ end }}
+
+      <div class="btn-links" style="margin-top:auto; padding-top:0.75rem;">
+        {{ partial "page_links" (dict "page" $item "is_list" 0) }}
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 {{$order}}" style="display:flex; align-items:center; justify-content:center;">
+      {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+
+      {{ with $resource }}
+        {{ $image := . }}
+        {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "resize 540x webp" }}{{ end }}
+        {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="display:block; width:100%;">{{end}}
+          <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+              alt="{{ $item.Title }}" loading="lazy" style="width: 100%; height: 280px; object-fit: contain; display: block; background: #ffffff;">
+        {{if $do_link}}</a>{{end}}
+      {{end}}
+    </div>
+  </div>
+</div>

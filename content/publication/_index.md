@@ -27,18 +27,12 @@ sections:
           - publication
         exclude_featured: true
       archive:
-        enable: false
+        enable: true
+        text: View all publications on PubMed →
+        link: https://pubmed.ncbi.nlm.nih.gov/?term=Seppala+TT%5BAuthor%5D&sort=date
     design:
-      view: citation
+      view: pub-list
       columns: '1'
       sort_by: Date
       sort_ascending: false
-
-  - block: markdown
-    content:
-      title: ''
-      text: |
-        **[View all publications on PubMed →](https://pubmed.ncbi.nlm.nih.gov/?term=Seppala+TT%5BAuthor%5D&sort=date)**
-    design:
-      columns: '1'
 ---

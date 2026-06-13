@@ -4,6 +4,7 @@
 main:
   - name: Research
     identifier: research
+    url: research/
     weight: 10
   - name: Our Research
     url: research/

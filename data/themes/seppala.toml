@@ -1,24 +1,20 @@
 # Seppälä Lab custom theme
-# Colors matched to the lab logo: deep wine/burgundy + neutral grays
+# Colors: #671927 (dark red) + #979797 (dark gray)
 name = "Seppala"
 
 [light]
-  # Burgundy accent — matches the logo text and dark circles
-  primary = "#6B2737"
+  primary = "#671927"
 
-  # Navbar: white background with burgundy accent (matches logo)
   menu_primary = "#ffffff"
-  menu_text = "#4a4a4a"
-  menu_text_active = "#6B2737"
-  menu_title = "#6B2737"
+  menu_text = "#979797"
+  menu_text_active = "#671927"
+  menu_title = "#671927"
 
-  # Page sections: white + very subtle warm off-white
   home_section_odd = "#ffffff"
-  home_section_even = "#f7f3f4"
+  home_section_even = "#f7f5f5"
 
 [dark]
-  # Lighter rose-burgundy for dark mode readability
-  primary = "#c9848f"
+  primary = "#c47a84"
 
-  link = "#c9848f"
-  link_hover = "#d9a0a9"
+  link = "#c47a84"
+  link_hover = "#d49aa3"

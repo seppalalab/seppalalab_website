@@ -23,7 +23,7 @@ sections:
         Arvo building, Arvo Ylpön katu 34  
         33520 Tampere, Finland
 
-        Email: [seppalalab@gmail.com](mailto:seppalalab@gmail.com)
+        Email: [tseppalalab@gmail.com](mailto:tseppalalab@gmail.com)
 
         ---
 

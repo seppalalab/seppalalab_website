@@ -29,7 +29,7 @@ social:
     icon_pack: fab
     link: 'https://linkedin.com/in/emmihama'
 user_groups:
-  - Team
+  - Lab Members
 highlight_name: true
 ---
 

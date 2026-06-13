@@ -6,18 +6,40 @@ type: landing
 sections:
   - block: people
     content:
-      title: Meet the Team
-      # Add or remove groups below to match your lab structure.
-      # Each author profile must list one of these groups in its user_groups field.
+      title: Meet the Lab Members
       user_groups:
         - Principal investigator
-        - Team
-        - Alumni
-        - Visitors
+        - Lab Members
       sort_by: Params.last_name
       sort_ascending: true
     design:
       show_interests: false
       show_role: true
       show_social: true
+
+  - block: markdown
+    content:
+      title: Alumni
+      text: |
+        **Nesrin Dinc** — Erasmus Exchange Student
+
+        **Kornelia Kuc**, BSc — Student
+
+        **Siiri Kuusela**, BSc — Research Assistant
+
+        **Elina Välkesalmi**, BSc — Student
+
+        **Samuli Rajala**, BSc — Research Assistant
+    design:
+      columns: '1'
+      css_class: section-alumni
+
+  - block: markdown
+    content:
+      title: Visitors
+      text: |
+        **Katarina Andini**, Doctoral Researcher from University of Groningen
+    design:
+      columns: '1'
+      css_class: section-visitors
 ---

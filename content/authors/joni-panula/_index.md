@@ -45,7 +45,7 @@ social:
 
 # Highlight name in author lists
 user_groups:
-  - Team
+  - Lab Members
 highlight_name: true
 ---
 

@@ -6,41 +6,76 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Collaboration
+      title: Funding
       text: |
-        Add collaboration partners, institutions, and networks here.
+        <p style="text-align:center; font-size:1.05rem; color:#555; margin-bottom:2rem;">Our research is made possible by the generous support of these organisations.</p>
+
+        <div class="row justify-content-center">
+
+          <div class="col-6 col-md-3 mb-4 d-flex">
+            <div class="funder-card w-100">
+              <img src="../../funders/cancer-foundation-finland.png" alt="Cancer Foundation Finland">
+              <a href="https://syopasaatio.fi/en/homepage/" target="_blank" rel="noopener">Cancer Foundation Finland</a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 mb-4 d-flex">
+            <div class="funder-card w-100">
+              <img src="../../funders/iCAN.png" alt="iCAN">
+              <a href="https://ican.fi/what-is-ican/" target="_blank" rel="noopener">iCAN</a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 mb-4 d-flex">
+            <div class="funder-card w-100">
+              <img src="../../funders/mg-ehrnrooth.png" alt="M&G Ehrnrooth Foundation">
+              <a href="https://marygeorg.fi/en/home/" target="_blank" rel="noopener">M&amp;G Ehrnrooth Foundation</a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 mb-4 d-flex">
+            <div class="funder-card w-100">
+              <img src="../../funders/research-council-of-finland.png" alt="Research Council of Finland">
+              <a href="https://www.aka.fi/en/" target="_blank" rel="noopener">Research Council of Finland</a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 mb-4 d-flex">
+            <div class="funder-card w-100">
+              <img src="../../funders/Sigrid-Juselius-Stiftelse.png" alt="Sigrid Jusélius Foundation">
+              <a href="https://www.sigridjuselius.fi/en/" target="_blank" rel="noopener">Sigrid Jusélius Foundation</a>
+            </div>
+          </div>
+
+        </div>
     design:
       columns: '1'
 
   - block: markdown
     content:
-      title: Funding
+      title: Collaboration
       text: |
-        <div class="row text-center mt-3" style="background: white; padding: 1.5rem 0;">
+        <p style="text-align:center; font-size:1.05rem; color:#555; margin-bottom:2rem;">We collaborate with leading research groups and clinical partners across Finland and internationally.</p>
 
-          <div class="col-6 col-md-3 mb-5 d-flex flex-column align-items-center">
-            <img src="../../funders/cancer-foundation-finland.png" alt="Cancer Foundation Finland" style="height: 80px; width: auto; max-width: 150px; object-fit: contain; margin-bottom: 0.75rem;">
-            <div><a href="https://syopasaatio.fi/en/homepage/" target="_blank" rel="noopener" style="color: #000;">Cancer Foundation Finland</a></div>
+        <div class="row justify-content-center">
+
+          <div class="col-6 col-md-3 mb-4 d-flex">
+            <div class="collab-card w-100">Partner details coming soon</div>
           </div>
-          <div class="col-6 col-md-3 mb-5 d-flex flex-column align-items-center">
-            <img src="../../funders/iCAN.png" alt="iCAN" style="height: 80px; width: auto; max-width: 150px; object-fit: contain; margin-bottom: 0.75rem;">
-            <div><a href="https://ican.fi/what-is-ican/" target="_blank" rel="noopener" style="color: #000;">iCAN</a></div>
+
+          <div class="col-6 col-md-3 mb-4 d-flex">
+            <div class="collab-card w-100">Partner details coming soon</div>
           </div>
-          <div class="col-6 col-md-3 mb-5 d-flex flex-column align-items-center">
-            <img src="../../funders/mg-ehrnrooth.png" alt="M&G Ehrnrooth Foundation" style="height: 80px; width: auto; max-width: 150px; object-fit: contain; margin-bottom: 0.75rem;">
-            <div><a href="https://marygeorg.fi/en/home/" target="_blank" rel="noopener" style="color: #000;">M&G Ehrnrooth Foundation</a></div>
+
+          <div class="col-6 col-md-3 mb-4 d-flex">
+            <div class="collab-card w-100">Partner details coming soon</div>
           </div>
-          <div class="col-6 col-md-3 mb-5 d-flex flex-column align-items-center">
-            <img src="../../funders/research-council-of-finland.png" alt="Research Council of Finland" style="height: 80px; width: auto; max-width: 150px; object-fit: contain; margin-bottom: 0.75rem;">
-            <div><a href="https://www.aka.fi/en/" target="_blank" rel="noopener" style="color: #000;">Research Council of Finland</a></div>
-          </div>
-          <div class="col-6 col-md-3 mb-5 d-flex flex-column align-items-center">
-            <img src="../../funders/Sigrid-Juselius-Stiftelse.png" alt="Sigrid Jusélius Foundation" style="height: 80px; width: auto; max-width: 150px; object-fit: contain; margin-bottom: 0.75rem;">
-            <div><a href="https://www.sigridjuselius.fi/en/" target="_blank" rel="noopener" style="color: #000;">Sigrid Jusélius Foundation</a></div>
+
+          <div class="col-6 col-md-3 mb-4 d-flex">
+            <div class="collab-card w-100">Partner details coming soon</div>
           </div>
 
         </div>
-
     design:
       columns: '1'
 ---
