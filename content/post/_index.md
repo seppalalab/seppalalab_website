@@ -10,11 +10,11 @@ sections:
       text: '<p style="text-align:center; font-size:1.1rem;">Updates from the lab, recent publications, events, and scientific highlights.</p>'
     design:
       columns: '1'
+      css_class: news-section
 
   - block: collection
     content:
-      title: Highlight
-      text: ''
+      title: ''
       filters:
         folders:
           - post
@@ -24,14 +24,11 @@ sections:
     design:
       view: article
       columns: '1'
-      css_class: section-subheading-sm
+      css_class: news-section
 
   - block: collection
     content:
-      title: Latest News
-      text: ''
-      count: 3
-      offset: 0
+      title: ''
       filters:
         folders:
           - post
@@ -41,22 +38,7 @@ sections:
     design:
       view: card
       columns: '3'
-      css_class: section-subheading-sm
-
-  - block: collection
-    content:
-      title: Read More News
-      text: ''
-      count: 6
-      offset: 3
-      filters:
-        folders:
-          - post
-        exclude_featured: true
-      archive:
-        enable: false
-    design:
-      view: card
-      columns: '3'
-      css_class: section-subheading-sm
+      sort_by: Date
+      sort_ascending: false
+      css_class: news-section
 ---

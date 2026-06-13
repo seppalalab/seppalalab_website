@@ -1,0 +1,19 @@
+{{/* Hugo Blox: Markdown */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $columns := $block.design.columns | default "1" }}
+{{ $text := $block.content.text | emojify | $page.RenderString }}
+{{ $is_team_section := in ($block.design.css_class | default "") "team-section" }}
+
+{{ if ne $columns "1" }}
+  <div class="col-12 col-lg-8{{ if $is_team_section }} team-card{{ end }}">
+    {{ $text }}
+  </div>
+{{ else }}
+  <div class="col-12{{ if $is_team_section }} team-card{{ end }}">
+    {{ $text }}
+  </div>
+{{ end }}

@@ -17,6 +17,7 @@ sections:
       show_role: true
       show_social: true
       columns: 3
+      css_class: team-section
 
   - block: markdown
     content:
@@ -33,7 +34,7 @@ sections:
         **Samuli Rajala**, BSc — Research Assistant
     design:
       columns: '1'
-      css_class: section-alumni
+      css_class: team-section section-alumni
 
   - block: markdown
     content:
@@ -42,5 +43,5 @@ sections:
         **Katarina Andini**, Doctoral Researcher from University of Groningen
     design:
       columns: '1'
-      css_class: section-visitors
+      css_class: team-section section-visitors
 ---
