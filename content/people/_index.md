@@ -6,7 +6,7 @@ type: landing
 sections:
   - block: people
     content:
-      title: Meet the Lab Members
+      title: Meet the Team
       user_groups:
         - Principal investigator
         - Lab Members
@@ -16,6 +16,7 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
+      columns: 3
 
   - block: markdown
     content:

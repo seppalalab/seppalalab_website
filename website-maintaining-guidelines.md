@@ -135,11 +135,9 @@ git config --global user.email "your@email.com"
 ### Step 3 - Clone the repository
 
 ```bash
-git clone https://github.com/<github-username>/<repository-name>.git
-cd <repository-name>
+git clone git@github.com:emsqqq/seppalalab_website.git
+cd seppalalab_website
 ```
-
-Replace `<github-username>` and `<repository-name>` with the actual values.
 
 ### Step 4 - Download theme dependencies
 
@@ -179,6 +177,28 @@ git push
 ```
 
 GitHub Actions will automatically build and deploy the updated site within 1–2 minutes.
+
+### Troubleshooting: `git push` asks for credentials or fails
+
+This repository uses an **SSH key** for authentication — no password or token needed.
+
+**Verify SSH is configured correctly (one-time check):**
+
+```bash
+ssh -T git@github.com
+```
+
+You should see: `Hi emsqqq! You've successfully authenticated…`
+
+**Ensure the remote URL uses SSH (not HTTPS):**
+
+```bash
+git remote set-url origin git@github.com:emsqqq/seppalalab_website.git
+```
+
+After that, `git push` works silently with no prompts.
+
+> **If you get `Permission denied (publickey)`:** your SSH key is not loaded. Run `ssh-add ~/.ssh/id_ed25519` and try again. If the key file does not exist, a new SSH key needs to be generated and added to GitHub (Settings → SSH keys).
 
 ---
 
