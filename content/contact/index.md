@@ -8,7 +8,13 @@ sections:
     content:
       title: Contact
       text: |
-        Seppälä Lab is part of Center for Cancer Eradication Research at Tampere University.
+        The Seppälä Research Group is part of Center for Cancer Eradication Research, Faculty of Medicine and Health Technology, Tampere University and Tays Cancer Center. Our work bridges clinical practice, translational research, and molecular oncology. We welcome enquiries from academic, clinical, and industry collaborators.
+
+        **Interested in joining the lab?**
+        For enquiries related to MSc, PhD, or postdoctoral positions, please contact us at [tseppalalab@gmail.com](mailto:tseppalalab@gmail.com).
+
+        **All other enquiries**
+        Please contact Toni Seppälä directly at [toni.seppala@tuni.fi](mailto:toni.seppala@tuni.fi).
     design:
       columns: '1'
       css_class: text-center
@@ -22,8 +28,6 @@ sections:
         Tampere University, Kauppi Campus  
         Arvo building, Arvo Ylpön katu 34  
         33520 Tampere, Finland
-
-        Email: [tseppalalab@gmail.com](mailto:tseppalalab@gmail.com)
 
         ---
 
