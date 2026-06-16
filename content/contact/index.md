@@ -18,6 +18,8 @@ sections:
     design:
       columns: '1'
       css_class: text-center
+      background:
+        color: '#ffffff'
 
   - block: markdown
     content:
@@ -35,6 +37,8 @@ sections:
     design:
       columns: '1'
       css_class: text-center
+      background:
+        color: '#f7f5f5'
 
   - block: markdown
     content:
@@ -54,4 +58,6 @@ sections:
     design:
       columns: '1'
       css_class: text-center
+      background:
+        color: '#ffffff'
 ---
