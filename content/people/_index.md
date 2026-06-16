@@ -23,6 +23,8 @@ sections:
     content:
       title: Alumni
       text: |
+        <br>
+
         **Nesrin Dinc** — Erasmus Exchange Student
 
         **Kornelia Kuc**, BSc — Student
@@ -40,6 +42,8 @@ sections:
     content:
       title: Visitors
       text: |
+        <br>
+
         **Katarina Andini**, Doctoral Researcher from University of Groningen
     design:
       columns: '1'

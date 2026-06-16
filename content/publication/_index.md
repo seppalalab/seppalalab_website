@@ -7,7 +7,7 @@ sections:
   - block: collection
     content:
       title: Highlighted Publications
-      text: ''
+      text: '<br>'
       filters:
         folders:
           - publication
@@ -20,7 +20,7 @@ sections:
   - block: collection
     content:
       title: Recent Publications
-      text: ''
+      text: '<br>'
       count: 5
       filters:
         folders:

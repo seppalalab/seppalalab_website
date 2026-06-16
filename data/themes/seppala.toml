@@ -10,7 +10,7 @@ name = "Seppala"
   menu_text_active = "#671927"
   menu_title = "#671927"
 
-  home_section_odd = "#ffffff"
+  home_section_odd = "#f7f5f5"
   home_section_even = "#f7f5f5"
 
 [dark]

@@ -60,19 +60,37 @@ sections:
         <div class="row justify-content-center">
 
           <div class="col-6 col-md-3 mb-4 d-flex">
-            <div class="collab-card w-100">Partner details coming soon</div>
+            <div class="collab-card w-100">
+              <span class="collab-name">Computational Biology</span>
+              <span class="collab-pi">Nykter Group</span>
+              <span class="collab-institution">Tampere University</span>
+              <span class="collab-role">[Role TBD]</span>
+            </div>
           </div>
 
           <div class="col-6 col-md-3 mb-4 d-flex">
-            <div class="collab-card w-100">Partner details coming soon</div>
+            <div class="collab-card w-100">
+              <span class="collab-name">Genomic Regulation for Precision Cancer Medicine Lab</span>
+              <span class="collab-pi">Urbanucci Group</span>
+              <span class="collab-institution">Tampere University</span>
+              <span class="collab-role">[Role TBD]</span>
+            </div>
           </div>
 
           <div class="col-6 col-md-3 mb-4 d-flex">
-            <div class="collab-card w-100">Partner details coming soon</div>
+            <div class="collab-card w-100">
+              <span class="collab-name">Tiina Jokela</span>
+              <span class="collab-institution">University of Jyväskylä</span>
+              <span class="collab-role">[Role TBD]</span>
+            </div>
           </div>
 
           <div class="col-6 col-md-3 mb-4 d-flex">
-            <div class="collab-card w-100">Partner details coming soon</div>
+            <div class="collab-card w-100">
+              <span class="collab-name">Juha Väyrynen</span>
+              <span class="collab-institution">University of Oulu</span>
+              <span class="collab-role">[Role TBD]</span>
+            </div>
           </div>
 
         </div>
