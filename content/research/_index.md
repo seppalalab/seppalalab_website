@@ -9,7 +9,7 @@ sections:
       title: Our Research
       subtitle: ''
       text: |
-        Precision medicine provides tools to identify correctly timed and molecularly targeted therapies for cancer. These opportunities are emerging in abdominal cancer types but are under-utilized in Finnish healthcare setting due suboptimal access to profiling, inflexible drug reimbursement and difficult access to interventional trials.
+        <p style="text-align:center;">Precision medicine provides tools to identify correctly timed and molecularly targeted therapies for cancer. These opportunities are emerging in abdominal cancer types but are under-utilized in Finnish healthcare setting due suboptimal access to profiling, inflexible drug reimbursement and difficult access to interventional trials.</p>
 
         <div class="research-card">
           <div class="research-card-body">
