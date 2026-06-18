@@ -26,15 +26,13 @@ organizations:
 # Short bio (shown below posts and publications)
 
 interests:
-  - Research Interest 1
-  - Research Interest 2
-  - Research Interest 3
+  -
 
 education:
   courses:
-    - course: PhD in Field
-      institution: University Name
-      year: 2010
+    - course:
+      institution:
+      year:
 
 # Social links — remove lines you don't need
 social:
@@ -43,13 +41,13 @@ social:
     link: 'kalle.a.ojala@tuni.fi'
   - icon: google-scholar
     icon_pack: ai
-    link: 'https://scholar.google.com/citations?user=XXXXX'
+    link: 'https://scholar.google.com/'
   - icon: github
     icon_pack: fab
-    link: 'https://github.com/username'
+    link: 'https://github.com/'
   - icon: linkedin
     icon_pack: fab
-    link: 'https://linkedin.com/in/username'
+    link: 'https://linkedin.com/'
 
 # Highlight name in author lists
 user_groups:

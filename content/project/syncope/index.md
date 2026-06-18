@@ -2,14 +2,14 @@
 title: SYNCOPE
 
 # Short description shown on the Research page card
-summary: Systemic neoadjuvant and adjuvant control by precision medicine in rectal cancer 
+summary: Systemic neoadjuvant and adjuvant control by precision medicine in rectal cancer
 
 tags:
   - Clinical Trial
 
 date: 2021-09-01
 
-draft: true
+draft: false
 
 external_link: ''
 

@@ -26,9 +26,6 @@ organizations:
 # Short bio (shown below posts and publications)
 
 interests:
-  - Research Interest 1
-  - Research Interest 2
-  - Research Interest 3
 
 education:
   courses:

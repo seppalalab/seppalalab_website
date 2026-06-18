@@ -32,24 +32,21 @@ interests:
 
 education:
   courses:
-    - course: PhD in Field
-      institution: University Name
-      year: 2010
+    - course:
+      institution:
+      year:
 
 # Social links — remove lines you don't need
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:email@university.edu'
+    link: 'mailto'
   - icon: google-scholar
     icon_pack: ai
-    link: 'https://scholar.google.com/citations?user=XXXXX'
-  - icon: github
-    icon_pack: fab
-    link: 'https://github.com/username'
+    link: 'https://scholar.google.com/'
   - icon: linkedin
     icon_pack: fab
-    link: 'https://linkedin.com/in/username'
+    link: 'https://linkedin.com/'
 
 # Highlight name in author lists
 user_groups:
@@ -58,4 +55,3 @@ highlight_name: true
 ---
 
 Write a longer bio here (1–3 paragraphs). This is shown on the person's individual profile page.
-This supports **Markdown** formatting.

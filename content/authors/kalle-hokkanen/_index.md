@@ -45,9 +45,6 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: 'https://scholar.google.com/citations?user=4cIDnt8AAAAJ'
-  - icon: github
-    icon_pack: fab
-    link: 'https://github.com/username'
   - icon: linkedin
     icon_pack: fab
     link: 'https://linkedin.com/in/kallehokkanen'
