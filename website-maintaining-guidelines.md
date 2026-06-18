@@ -15,7 +15,7 @@ These folders contain all the website's text, images, and configuration. Most ro
 | `content/authors/`               | Team member profiles, one sub-folder per person |
 | `content/post/`                  | News and announcements, one sub-folder per post |
 | `content/publication/`           | Publications, one sub-folder per paper          |
-| `content/research/_index.md`     | Research page text and topics                   |
+| `content/research/_index.md`     | Research page layout and intro text             |
 | `content/people/index.md`        | Team page layout settings                       |
 | `content/contact/index.md`       | Contact page settings                           |
 | `content/_index.md`              | Homepage blocks and sections                    |
@@ -26,6 +26,9 @@ These folders contain all the website's text, images, and configuration. Most ro
 | `assets/media/`                  | Shared images, site logo, favicon, hero photo   |
 | `static/`                        | Files served as-is, PDFs and other downloads    |
 | `data/themes/`                   | Custom colour theme definitions                 |
+| `data/funders.yaml`              | Funding page — list of funders with name, URL, logo |
+| `data/collaborators.yaml`        | Funding page — list of collaborators with name, institution, role |
+| `data/research_topics.yaml`      | Research page — topic cards with title, text, image |
 
 ---
 
@@ -460,6 +463,66 @@ Example — to move Research before People, give Research a lower weight:
 
 Fix the problem in the file and commit again — a new build will start automatically.
 
+### Add, remove, or edit a funder
+
+Open `data/funders.yaml`. Each funder is one block:
+
+```yaml
+- name: Cancer Foundation Finland
+  url: https://syopasaatio.fi/en/homepage/
+  logo: cancer-foundation-finland.png
+```
+
+- **`name`** — display name shown below the logo
+- **`url`** — link when clicking the funder name (use `''` if none)
+- **`logo`** — filename of the logo image, must exist in `static/funders/`
+
+To add a funder: upload the logo to `static/funders/` and add a new block at the bottom of the file.
+To remove a funder: delete the entire `- name: ...` block for that funder.
+
+---
+
+### Add, remove, or edit a collaborator
+
+Open `data/collaborators.yaml`. Each collaborator is one block:
+
+```yaml
+- name: Computational Biology
+  group: Nykter Group
+  institution: Tampere University
+  role: Joint Lynch syndrome cohort
+```
+
+- **`name`** — lab or person name shown in bold
+- **`group`** — group name shown in burgundy below the name (omit if not applicable)
+- **`institution`** — university or organisation
+- **`role`** — short description of the collaboration (omit or set to `""` if unknown)
+
+To add a collaborator: add a new `- name:` block at the bottom.
+To remove one: delete the entire block.
+
+---
+
+### Add, remove, or edit a research topic
+
+Open `data/research_topics.yaml`. Each topic is one block:
+
+```yaml
+- title: Selecting Right Patients at the Right Time
+  image: ""
+  text: >
+    Your topic description here...
+```
+
+- **`title`** — heading shown on the card
+- **`image`** — filename of an image in `assets/media/` (leave as `""` for placeholder)
+- **`text`** — body paragraph; use `>` for multi-line text (keep consistent indentation)
+
+To add an image later: drop the file in `assets/media/` and set `image: your-filename.jpg`.
+To add a topic: add a new `- title:` block. To remove: delete the entire block.
+
+---
+
 ### Update the featured publications (with results figure)
 
 The Publications page shows three highlighted papers at the top, each with a result figure, abstract, PDF link, and article link. To swap one out for another paper:
@@ -599,7 +662,10 @@ Claude will read the publication, generate a 3–4 sentence plain-language summa
 | Add a news post | Either | Copy `content/post/example-news/`, rename, edit |
 | Add a publication | Either | Copy `content/publication/example-paper/`, rename, edit |
 | Hide a post or publication | Either | Set `draft: true` in the content file |
-| Update research text | Either | `content/research/_index.md` |
+| Update research topic text or image | Either | `data/research_topics.yaml` |
+| Add or remove a research topic | Either | `data/research_topics.yaml` — add or delete a `- title:` block |
+| Add or remove a funder | Either | `data/funders.yaml` |
+| Add or remove a collaborator | Either | `data/collaborators.yaml` |
 | Change navigation order | Either | `config/_default/menus.yaml` — adjust `weight:` values |
 | Update contact info | Either | `config/_default/params.yaml` |
 | Add a PDF download | Either | Place file in `static/`, link in content |

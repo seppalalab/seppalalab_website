@@ -1,0 +1,12 @@
+<div class="row justify-content-center">
+  {{ range site.Data.collaborators }}
+  <div class="col-6 col-md-3 mb-4 d-flex">
+    <div class="collab-card w-100">
+      <span class="collab-name">{{ .name }}</span>
+      {{ with .group }}<span class="collab-pi">{{ . }}</span>{{ end }}
+      <span class="collab-institution">{{ .institution }}</span>
+      {{ with .role }}<span class="collab-role">{{ . }}</span>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>

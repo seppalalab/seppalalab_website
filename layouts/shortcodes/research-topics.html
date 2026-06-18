@@ -1,0 +1,17 @@
+{{ range site.Data.research_topics }}
+<div class="research-card">
+  <div class="research-card-body">
+    {{ if .image }}
+      <div class="research-card-image">
+        <img src="{{ (resources.Get (printf "media/%s" .image)).RelPermalink }}" alt="{{ .title }}">
+      </div>
+    {{ else }}
+      <div class="research-card-image">Image placeholder</div>
+    {{ end }}
+    <div class="research-card-text">
+      <h3>{{ .title }}</h3>
+      <p>{{ .text }}</p>
+    </div>
+  </div>
+</div>
+{{ end }}
