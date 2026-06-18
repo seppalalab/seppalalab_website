@@ -1,5 +1,5 @@
 title: Seppälä Lab
-baseURL: 'https://seppalalab.github.io/seppalalab_website/' # overridden by GitHub Actions at build time
+baseURL: 'https://www.seppalalab.org/'
 
 ############################
 ## LANGUAGE
