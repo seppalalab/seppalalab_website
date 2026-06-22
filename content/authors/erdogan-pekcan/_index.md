@@ -6,7 +6,7 @@
 # 4. Save — the site rebuilds automatically
 
 # Display name (shown on the Team page)
-title: Erdogan Pekcan Erkan
+title: Erdoğan Pekcan Erkan
 
 # Full name for SEO
 first_name: Erdoğan Pekcan
