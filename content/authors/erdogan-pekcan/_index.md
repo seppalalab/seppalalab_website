@@ -34,11 +34,9 @@ education:
     - course: PhD in Clinical Experimental Oncology
       institution: Medical University of Vienna, Austria
       year: 2013
-  - course: MSc in Molecular Biology
+    - course: MSc in Molecular Biology
       institution: Ege University, Türkiye
       year: 2011
-
-  
 
 # Social links — remove lines you don't need
 social:
