@@ -9,7 +9,7 @@
 title: Erdogan Pekcan Erkan
 
 # Full name for SEO
-first_name: Erdogan Pekcan
+first_name: Erdoğan Pekcan
 last_name: Erkan
 
 # Set to true for the Principal Investigator
@@ -32,8 +32,13 @@ interests:
 education:
   courses:
     - course: PhD in Clinical Experimental Oncology
-      institution: Medical University of Vienna
+      institution: Medical University of Vienna, Austria
       year: 2013
+  - course: MSc in Molecular Biology
+      institution: Ege University, Türkiye
+      year: 2011
+
+  
 
 # Social links — remove lines you don't need
 social:
@@ -56,4 +61,4 @@ user_groups:
 highlight_name: true
 ---
 
-I am a senior postdoctoral researcher in cancer biology at Tampere University, specializing in colorectal cancer with a focus on chemotherapy resistance tumor microenvironment. My research combines in vitro models with multimodal omics analyses to identify therapeutic vulnerabilities and biomarkers for precision oncology.
+I am a senior postdoctoral researcher in cancer biology at Tampere University, specializing in colorectal cancer with a focus on chemotherapy resistance and tumor microenvironment. My research combines in vitro models with multimodal omics analyses to identify therapeutic vulnerabilities and biomarkers for precision oncology.
