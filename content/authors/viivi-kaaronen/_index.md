@@ -6,7 +6,7 @@
 # 4. Save — the site rebuilds automatically
 
 # Display name (shown on the Team page)
-title: Erdoğan Pekcan Erkan
+title: Viivi Kaaronen
 
 # Full name for SEO
 first_name: Viivi
