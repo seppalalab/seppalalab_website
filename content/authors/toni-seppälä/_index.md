@@ -23,7 +23,7 @@ organizations:
   - name: Tampere University
     url: 'https://www.tuni.fi/fi/ihmiset/toni-seppala'
   - name: Tampere University Hospital Cancer Centre
-  - Center for Cancer Eradication Research
+  - name: Center for Cancer Eradication Research
     url: 'https://research.tuni.fi/ccer/'
 
 # Short bio (shown below posts and publications)
