@@ -23,6 +23,8 @@ organizations:
   - name: Tampere University
     url: 'https://www.tuni.fi/fi/ihmiset/toni-seppala'
   - name: Tampere University Hospital Cancer Centre
+  - Center for Cancer Eradication Research (CCER)
+    url: 'https://research.tuni.fi/ccer/'
 
 # Short bio (shown below posts and publications)
 
@@ -58,5 +60,7 @@ user_groups:
 highlight_name: true
 ---
 
-Personalized medicine in surgical context with gastrointestinal cancer organoids & cancer biomarkers @Seppälä Lab. Spotlight on Lynch Syndrome focusing on CRC, in collaboration with EHTG and PLSD.
-Main job at Tampere University and Tampere University Hospital, in addition to Helsinki University and hospital. GI surgeon by training, tenure track Professor at Tampere and PI at University of Helsinki and Applied Tumor Genomics Research Program. Johns Hopkins alumni.
+Personalized medicine in surgical context with gastrointestinal cancer organoids & cancer biomarkers @Seppälä Lab. Spotlight on Lynch Syndrome focusing on CRC, in collaboration with EHTG and PLSD. Johns Hopkins alumni.
+
+- Professor of Cancer Research, Center for Cancer Eradication Research (CCER) and Faculty of Medicine and Health Technology, Unit NEON-S, Tampere University
+- Colorectal Surgeon, Chief physician for developing personalised cancer management, Gastroenterological surgery, Tampere University Hospital
