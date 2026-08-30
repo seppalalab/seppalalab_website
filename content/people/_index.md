@@ -27,11 +27,11 @@ sections:
 
         **Nesrin Dinc** — Erasmus Exchange Student
 
-        **Kornelia Kuc**, BSc — Student
+        **Kornelia Kuc**, BSc — MSc student (University of Helsinki), currently Research Assistant at Evotec
 
-        **Siiri Kuusela**, BSc — Research Assistant
+        **Siiri Kuusela**, BSc — Research Assistant, currently MSc student (University of Helsinki)
 
-        **Elina Välkesalmi**, BSc — Student
+        **Elina Välkesalmi**, BSc — MSc student (University of Helsinki), currently PhD student (University of Helsinki)
 
         **Samuli Rajala**, BSc — Research Assistant
     design:
