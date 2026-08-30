@@ -1,5 +1,5 @@
 ---
-title: The PREDI-LYNCH project
+title: PREDI-LYNCH: Redefining Cancer Surveillance for Lynch Syndrome
 
 summary: Advancing early detection and personalized prevention of Lynch syndrome through refined risk assessment tools that combine genetic markers, family history, and lifestyle factors.
 
@@ -35,12 +35,11 @@ authors:
 
 ---
 
-The PREDI-LYNCH project is dedicated to advancing early detection and personalized prevention of Lynch syndrome, a hereditary condition that predisposes individuals to colorectal, endometrial, and several other types of cancer.
+PREDI-LYNCH (Protocol UC-GIG-2522) is a multicenter, randomized study evaluating whether a non-invasive, multimodal surveillance strategy can safely improve cancer detection in people with Lynch syndrome (LS), a hereditary condition that raises the risk of colorectal, endometrial, and urothelial cancers.
+The trial will enroll 2,000 adults (ages 35–80) with a confirmed pathogenic variant in MLH1, MSH2, MSH6, or EPCAM, randomizing them 1:1 to either standard-of-care surveillance (colonoscopy every 18 months) or an experimental strategy combining extended-interval colonoscopy (at baseline and 36 months) with annual liquid biopsy testing — blood (ctDNA), urine, vaginal swab, and stool samples.
 
-Through collaboration with leading medical institutions and researchers, the project aims to refine risk assessment tools that combine genetic markers, family history, and lifestyle factors. This holistic approach enables healthcare providers to offer tailored screening and prevention strategies, ultimately reducing cancer incidence and improving long-term patient outcomes.
+The goal is to determine whether this less invasive, genomically informed approach is non-inferior to standard colonoscopy-based screening for detecting cancer, while easing the physical, emotional, and economic burden of frequent invasive procedures. If successful, PREDI-LYNCH could shift Lynch syndrome surveillance toward a more precise, patient-centered, and scalable model of early cancer detection.
 
-PREDI-LYNCH also emphasizes patient education and accessibility, ensuring that risk prediction tools are user-friendly and available to diverse populations. By bridging the gap between research and clinical practice, the PREDI-LYNCH project strives to empower individuals and clinicians alike with actionable insights for precision medicine in hereditary cancer prevention.
-
-- **Duration:** 2025–2031
-- **Role:** Leader of clinical studies
+- **Duration:** 10 years
+- **Role:** Coordinating PI, WP3 leader
 
