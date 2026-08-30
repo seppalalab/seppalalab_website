@@ -4,8 +4,8 @@ first_name: Tiina
 last_name: Jokela
 superuser: false
 role: Visiting Researcher
-current organization:
-  - name: Research Director, Central Finland Biobank
+organizations:
+  - name: University of Helsinki
 user_groups:
   - Alumni
 ---
