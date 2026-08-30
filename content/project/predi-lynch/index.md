@@ -1,5 +1,5 @@
 ---
-title: PREDILYNCH: Redefining cancer surveillance for Lynch Syndrome
+title: PREDI-LYNCH – Redefining cancer surveillance for Lynch Syndrome
 
 summary: Advancing early detection and personalized prevention of Lynch syndrome through refined risk assessment tools that combine genetic markers, family history, and lifestyle factors.
 
