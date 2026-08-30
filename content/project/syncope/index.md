@@ -27,12 +27,9 @@ authors:
 
 ---
 
-The overall goal of the project is to test if early systemic control and precision-targeted selection to adjuvant chemotherapy, as a comprehensive treatment strategy, would reduce the rate of systemic recurrence in mrEMVI+ without increasing the harms from adverse effects. The specific research questions are:
+SYNCOPE (NCT04842006) is a multicentre randomized clinical trial investigating an intensified, precision-guided treatment strategy for patients with high-risk, locally advanced rectal cancer with MRI-detected extramural venous invasion (mrEMVI+), a group at particularly high risk of developing distant metastases.
+Patients are randomized to either conventional chemoradiotherapy or an experimental strategy combining short-course radiotherapy followed by total neoadjuvant CAPOX chemotherapy before surgery. In the experimental arm, postoperative treatment decisions are further guided by circulating tumor DNA (ctDNA) as a marker of minimal residual disease and by molecular and patient-derived organoid analyses.
+The primary objective is to determine whether this strategy improves recurrence-free survival, particularly by reducing distant metastatic recurrence. The trial also evaluates ctDNA for detection of residual disease and patient-derived tumor organoids as tools for predicting individual treatment response, aiming to develop a more personalized approach to perioperative rectal cancer therapy.
 
-1. Is application of systemic control with precision approach over the course of the rectal cancer therapy logistically feasible?
-2. Does systemic control and precision approach as a treatment strategy improve recurrence-free survival of rectal cancer patients?.
-3. Is circulating tumor DNA a reliable postoperative biomarker of minimal residual disease (MRD) for adjuvant chemotherapy decisions?
-4. Does chemosensitivity of patient-derived organoids (PDO) correlates to therapy response in a prospective setting?
-
-- **Duration:** [Add duration]
-- **Role:** [Add role]
+- **Duration:** 10 years
+- **Role:** Coordinating PI
