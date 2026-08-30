@@ -20,11 +20,17 @@ role: Principal Investigator
 
 # Affiliation
 organizations:
+  - name: Professor of Cancer Research
+  - name: Center for Cancer Eradication Research (CCER)
+    url: 'https://research.tuni.fi/ccer/'
+  - name: Faculty of Medicine and Health Technology, Unit NEON-S
   - name: Tampere University
     url: 'https://www.tuni.fi/fi/ihmiset/toni-seppala'
-  - name: Tampere University Hospital Cancer Centre
-  - name: Center for Cancer Eradication Research
-    url: 'https://research.tuni.fi/ccer/'
+  - divider: true
+  - name: Colorectal Surgeon
+  - name: Chief physician for developing personalised cancer management
+  - name: Gastroenterological surgery
+  - name: Tampere University Hospital
 
 # Short bio (shown below posts and publications)
 

@@ -126,6 +126,29 @@ section.team-section {
   padding-top: 0;
 }
 
+/* Author profile — affiliations block.
+   The --compact modifier is added by the about.html override when a person has
+   5+ organizations (currently only the PI), so long affiliation lists shrink
+   without affecting anyone else. A `divider: true` entry adds a rule between the
+   academic and clinical affiliations. */
+#profile .portrait-affiliations h3 {
+  margin-bottom: 0.35rem;
+}
+
+#profile .portrait-affiliations--compact h3 {
+  font-size: 0.82rem;
+  line-height: 1.3;
+  margin-bottom: 0.15rem;
+}
+
+#profile .portrait-affiliations__divider {
+  width: 45%;
+  margin: 0.7rem auto;
+  border: 0;
+  border-top: 1px solid #d9c2c6;
+  opacity: 1;
+}
+
 /* Alumni and Visitors — left-aligned text */
 .section-alumni p, .section-alumni h2,
 .section-visitors p, .section-visitors h2 {
@@ -235,8 +258,6 @@ section.team-section {
   .collab-role {
     font-size: 0.78rem;
     color: #999;
-    font-style: italic;
-    margin-top: 0.3rem;
   }
 }
 

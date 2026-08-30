@@ -1,17 +1,16 @@
 - name: Computational Biology
   group: Nykter Group
   institution: Tampere University
-  role: "[Role TBD]"
 
 - name: Genomic Regulation for Precision Cancer Medicine Lab
   group: Urbanucci Group
   institution: Tampere University
-  role: "[Role TBD]"
 
 - name: Tiina Jokela
-  institution: University of Jyväskylä
-  role: "[Role TBD]"
+  role: Research director
+  institution: Central Finland Biobank
 
 - name: Juha Väyrynen
+  role: Professor of Pathology
   institution: University of Oulu
-  role: "[Role TBD]"
+

@@ -25,15 +25,18 @@ sections:
       text: |
         <br>
 
+        <!-- Format: **Name**, degree — original role, original affiliation · *now* current role, current institution
+             Drop the "· *now* …" clause when current info is unavailable. -->
+
         **Nesrin Dinc** — Erasmus Exchange Student
 
-        **Kornelia Kuc**, BSc — MSc student (University of Helsinki), currently Research Assistant at Evotec
+        **Kornelia Kuc** — MSc student, University of Helsinki · Research Assistant, Evotec
 
-        **Siiri Kuusela**, BSc — Research Assistant, currently MSc student (University of Helsinki)
+        **Siiri Kuusela** — Research Assistant and MSc student, University of Helsinki
 
-        **Elina Välkesalmi**, BSc — MSc student (University of Helsinki), currently PhD student (University of Helsinki)
+        **Elina Välkesalmi** — MSc student, University of Helsinki · Doctoral Researcher, University of Helsinki
 
-        **Samuli Rajala**, BSc — Research Assistant
+        **Samuli Rajala** — Research Assistant and BSc student, University of Helsinki
     design:
       columns: '1'
       css_class: team-section section-alumni

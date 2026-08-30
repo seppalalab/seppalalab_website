@@ -1,18 +1,70 @@
+# Funders shown on /research/funding/
+# Add a logo PNG to static/funders/ matching the `logo:` filename below.
+# Order here = display order on the page.
+
+# --- EU / international ---
+- name: EU4Health Programme
+  url: https://cancer-screening-and-care.jrc.ec.europa.eu/preventable-cancers-action
+  logo: eu4health.png
+
+- name: "Horizon Europe – EU Mission: Cancer"
+  url: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/eu-missions-horizon-europe/cancer_en
+  logo: horizon-europe.png
+
+# --- National / public ---
+- name: Research Council of Finland
+  url: https://www.aka.fi/en/
+  logo: research-council-of-finland.png
+
 - name: Cancer Foundation Finland
   url: https://syopasaatio.fi/en/homepage/
   logo: cancer-foundation-finland.png
 
+- name: Cancer Society of Finland
+  url: https://www.cancersociety.fi/
+  logo: cancer-society-of-finland.png
+
 - name: iCAN
-  url: https://ican.fi/what-is-ican/
+  url: https://ican.fi/
   logo: iCAN.png
+
+# --- Hospitals / regions ---
+- name: HUS Helsinki University Hospital
+  url: https://www.hus.fi/en
+  logo: hus.png
+
+- name: Wellbeing Services County of Pirkanmaa
+  url: https://www.pirha.fi/web/english/
+  logo: pirha.png
+
+- name: Tays Support Foundation
+  url: https://tayssaatio.fi/
+  logo: tays-saatio.png
+
+# --- Foundations ---
+- name: Emil Aaltonen Foundation
+  url: https://emilaaltonen.fi/en/
+  logo: emil-aaltonen.png
+
+- name: Finnish Medical Foundation
+  url: https://www.laaketieteensaatio.fi/en/
+  logo: finnish-medical-foundation.png
+
+- name: Instrumentarium Science Foundation
+  url: https://instrumentarium.fi/en/
+  logo: instrumentarium.png
+
+- name: Jane and Aatos Erkko Foundation
+  url: https://jaes.fi/en/
+  logo: jane-aatos-erkko.png
 
 - name: M&G Ehrnrooth Foundation
   url: https://marygeorg.fi/en/home/
   logo: mg-ehrnrooth.png
 
-- name: Research Council of Finland
-  url: https://www.aka.fi/en/
-  logo: research-council-of-finland.png
+- name: Relander Foundation
+  url: https://www.relanderska.fi/
+  logo: relander.png
 
 - name: Sigrid Jusélius Foundation
   url: https://www.sigridjuselius.fi/en/
