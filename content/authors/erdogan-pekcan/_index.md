@@ -52,6 +52,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: 'https://linkedin.com/in/eperkan'
+  - icon: orcid
+    icon_pack: ai
+    link: 'https://orcid.org/my-orcid?orcid=0000-0001-9287-4773'
 
 # Highlight name in author lists
 user_groups:
