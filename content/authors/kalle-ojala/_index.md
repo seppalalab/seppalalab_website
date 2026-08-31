@@ -39,15 +39,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'kalle.a.ojala@tuni.fi'
-  - icon: google-scholar
-    icon_pack: ai
-    link: 'https://scholar.google.com/'
-  - icon: github
-    icon_pack: fab
-    link: 'https://github.com/'
-  - icon: linkedin
-    icon_pack: fab
-    link: 'https://linkedin.com/'
 
 # Highlight name in author lists
 user_groups:
@@ -55,5 +46,3 @@ user_groups:
 highlight_name: true
 ---
 
-Write a longer bio here (1–3 paragraphs). This is shown on the person's individual profile page.
-This supports **Markdown** formatting.
