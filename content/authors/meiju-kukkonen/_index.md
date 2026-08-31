@@ -37,7 +37,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:email@university.edu'
+    link: 'mailto:meiju.kukkonen@tuni.fi'
 
 # Highlight name in author lists
 user_groups:
