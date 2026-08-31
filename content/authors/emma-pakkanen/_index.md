@@ -40,13 +40,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto'
-  - icon: google-scholar
-    icon_pack: ai
-    link: 'https://scholar.google.com/'
-  - icon: linkedin
-    icon_pack: fab
-    link: 'https://linkedin.com/'
+    link: 'mailto:emma.pakkanen@tuni.fi'
 
 # Highlight name in author lists
 user_groups:
