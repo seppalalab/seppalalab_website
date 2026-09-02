@@ -26,13 +26,16 @@ organizations:
 # Short bio (shown below posts and publications)
 
 interests:
-  -
+  - data management
+  - data analysis
+  - algorithm development
+  - machine learning
 
 education:
   courses:
-    - course:
-      institution:
-      year:
+    - course: MSc in Genetics and Bioinformatics
+      institution: University of Helsinki
+      year: 2007
 
 # Social links — remove lines you don't need
 social:
@@ -45,4 +48,4 @@ user_groups:
   - Lab Members
 highlight_name: true
 ---
-
+I am a bioinformatician and data scientist and have worked 10+ years in both academia and industry. Originally a geneticist and bioinformatician, my intrests lead me to data management and analysis, gathering, harmonizing and presenting both data and results. I joined Seppälä Lab late 2021, and work to provide the team with complete, accurate and compliant data and analyses.

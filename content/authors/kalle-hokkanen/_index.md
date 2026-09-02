@@ -33,15 +33,15 @@ interests:
 
 education:
   courses:
-    - course: PhD in Field
-      institution: University Name
-      year: 2010
+    - course:
+      institution:
+      year:
 
 # Social links — remove lines you don't need
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:email@university.edu'
+    link: 'kalle.hokkanen@tuni.fi'
   - icon: google-scholar
     icon_pack: ai
     link: 'https://scholar.google.com/citations?user=4cIDnt8AAAAJ'
