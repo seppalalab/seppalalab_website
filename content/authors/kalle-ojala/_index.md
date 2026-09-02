@@ -26,10 +26,10 @@ organizations:
 # Short bio (shown below posts and publications)
 
 interests:
-  - data management
-  - data analysis
-  - algorithm development
-  - machine learning
+  - Data management
+  - Data analysis
+  - Algorithm development
+  - Machine learning
 
 education:
   courses:
