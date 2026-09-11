@@ -30,4 +30,4 @@ Professor Toni Seppälä hopes that, in the future, the treatment could also ben
 
 Source: Ervasti, A-E. *Uusi peräsuolisyövän hoito alkoi Taysissa – osa potilaista voisi tulevaisuudessa välttyä leikkaukselta.* Suomen Lääkärilehti 2026;81:e49327.
 
-[Read the full article at Lääkärilehti →](https://www.laakarilehti.fi/kliininen-tyo/uusi-perasuolisyovan-hoito-alkoi-taysissa-osa-potilaista-voisi-tulevaisuudessa-valttya-leikkaukselta/) or [from a PDF](article.pdf))
+[Read the full article at Lääkärilehti](https://www.laakarilehti.fi/kliininen-tyo/uusi-perasuolisyovan-hoito-alkoi-taysissa-osa-potilaista-voisi-tulevaisuudessa-valttya-leikkaukselta/) or [from a PDF](article.pdf)
