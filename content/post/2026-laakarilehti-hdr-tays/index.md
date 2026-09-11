@@ -2,7 +2,7 @@
 title: 'Tampere University Hospital first in Finland to offer new HDR brachytherapy for rectal cancer'
 subtitle: ''
 date: '2026-09-11'
-draft: true
+draft: false
 
 # Article is behind a Lääkärilehti login. This draft is based on two shared
 # screenshots (headline/lead + opening paragraph) — swap in the full text
@@ -32,4 +32,4 @@ Professor Toni Seppälä hopes that, in the future, the treatment could also ben
 
 Source: Ervasti, A-E. *Uusi peräsuolisyövän hoito alkoi Taysissa – osa potilaista voisi tulevaisuudessa välttyä leikkaukselta.* Suomen Lääkärilehti 2026;81:e49327.
 
-[Read the full article at Lääkärilehti →](https://www.laakarilehti.fi/kliininen-tyo/uusi-perasuolisyovan-hoito-alkoi-taysissa-osa-potilaista-voisi-tulevaisuudessa-valttya-leikkaukselta/) (login required)
+[Read the full article at Lääkärilehti →](https://www.laakarilehti.fi/kliininen-tyo/uusi-perasuolisyovan-hoito-alkoi-taysissa-osa-potilaista-voisi-tulevaisuudessa-valttya-leikkaukselta/) (login required, or [download PDF](article.pdf))
