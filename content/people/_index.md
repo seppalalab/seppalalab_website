@@ -32,8 +32,6 @@ sections:
 
         **Kornelia Kuc** — MSc student, University of Helsinki · Research Assistant, Evotec
 
-        **Siiri Kuusela** — Research Assistant and MSc student, University of Helsinki
-
         **Elina Välkesalmi** — MSc student, University of Helsinki · Doctoral Researcher, University of Helsinki
 
         **Samuli Rajala** — Research Assistant and BSc student, University of Helsinki

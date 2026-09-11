@@ -3,7 +3,7 @@ title: "Two weeks in the lab: a high-school student's summer job in histology"
 subtitle: ''
 date: '2026-06-26'
 draft: true
-featured: false
+featured: true
 
 # Shown on the News front page instead of the auto-generated excerpt.
 # Ask the supervisor for the short intro text and paste it here (plain text,
