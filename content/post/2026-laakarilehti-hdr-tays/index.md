@@ -28,8 +28,6 @@ Tampere University Hospital is the first hospital in Finland to introduce a new 
 
 Professor Toni Seppälä hopes that, in the future, the treatment could also benefit patients who wish to avoid major surgery for rectal cancer.
 
-> "Tays on ottanut uuden peräsuolisyövän sädehoitomenetelmän käyttöön ensimmäisenä sairaalana Suomessa. HDR-brakyterapiahoidot aloitettiin elokuun[...] Professori Toni Seppälä toivoo, että tulevaisuudessa hoito hyödyttää myös sellaisia potilaita, jotka haluavat välttää suuren leikkauksen."
-
 Source: Ervasti, A-E. *Uusi peräsuolisyövän hoito alkoi Taysissa – osa potilaista voisi tulevaisuudessa välttyä leikkaukselta.* Suomen Lääkärilehti 2026;81:e49327.
 
-[Read the full article at Lääkärilehti →](https://www.laakarilehti.fi/kliininen-tyo/uusi-perasuolisyovan-hoito-alkoi-taysissa-osa-potilaista-voisi-tulevaisuudessa-valttya-leikkaukselta/) (login required, or [download PDF](article.pdf))
+[Read the full article at Lääkärilehti →](https://www.laakarilehti.fi/kliininen-tyo/uusi-perasuolisyovan-hoito-alkoi-taysissa-osa-potilaista-voisi-tulevaisuudessa-valttya-leikkaukselta/) or [from a PDF](article.pdf))
