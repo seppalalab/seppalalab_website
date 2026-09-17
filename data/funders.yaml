@@ -4,7 +4,7 @@
 
 # --- EU / international ---
 - name: EU4Health Programme
-  url: https://cancer-screening-and-care.jrc.ec.europa.eu/preventable-cancers-action
+  url: https://health.ec.europa.eu/funding/eu4health-programme-2021-2027-vision-healthier-european-union_en
   logo: eu4health.png
 
 - name: "Horizon Europe – EU Mission: Cancer"
@@ -38,12 +38,12 @@
   logo: pirha.png
 
 - name: Tays Support Foundation
-  url: https://tayssaatio.fi/
+  url: https://taystuki.fi
   logo: tays-saatio.png
 
 # --- Foundations ---
 - name: Emil Aaltonen Foundation
-  url: https://emilaaltonen.fi/en/
+  url: https://emilaaltonen.fi
   logo: emil-aaltonen.png
 
 - name: Finnish Medical Foundation
@@ -51,7 +51,7 @@
   logo: finnish-medical-foundation.png
 
 - name: Instrumentarium Science Foundation
-  url: https://instrumentarium.fi/en/
+  url: https://instrufoundation.fi/en.php
   logo: instrumentarium.png
 
 - name: Jane and Aatos Erkko Foundation
@@ -63,7 +63,7 @@
   logo: mg-ehrnrooth.png
 
 - name: Relander Foundation
-  url: https://www.relanderska.fi/
+  url: https://polttimo.com/relander-foundation/
   logo: relander.png
 
 - name: Sigrid Jusélius Foundation
