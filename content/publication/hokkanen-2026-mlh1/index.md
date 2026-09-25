@@ -20,7 +20,7 @@ abstract: 'Lynch syndrome–associated colorectal cancers in MLH1 mutation carri
 
 featured: true
 
-doi: 'S0016-5085(25)06135-9'
+doi: 'https://doi.org/10.1053/j.gastro.2025.10.012'
 url_pdf: 'publication/hokkanen-2026-mlh1/paper.pdf'
 url_code: ''
 url_dataset: ''
